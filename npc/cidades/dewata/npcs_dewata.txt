@@ -259,7 +259,174 @@ dewata,146,109,5	script	Sr.Dwi Oblo	-1,{
 
 	set dew_dwi, 1;
 	close;
+}dewata,233,263,0	script	Casal adoravel#1	75,{
+
+	emotion 30;
+	mes "[Marido]";
+	mes "Você é a coisa mais linda do mundo,";
+	mes "querida~ <3";
+	next;
+	
+	donpcevent "Casal adoravel#2::OnEmoteA";/*donpcevent  * event*/
+
+	mes "[Esposa]";
+	mes "Mesmo? Sou tão linda assim? Eu amo";
+	mes "você, querido~ <3";
+	next;
+	
+	emotion 18;
+	
+	donpcevent "Casal adoravel#2::OnEmoteB";/*donpcevent *event*/
+	
+	mes "[Casal adorável]";
+	mes "Hahahahahahahahahahahahahahahahahah";
+	mes "ahahahahahahahahahahahahahahahahaha";
+	mes "ha";
+	mes "Hohohohohohohohohohohohohohohohohoh";
+	mes "ho";
+	next;
+	
+	mes "Credo,odeio isso.Vamos embora";
+	close;
+
+	OnEmoteA:
+		emotion 30;
+		end;
+		
+}dewata,234,263,0	script	Casal adoravel#2	75,{
+
+	emotion 1;
+	mes "[Esposa]";
+	mes "Querido ~ Você sabe que a flor é";
+	mes "essa~?";
+	next;
+	
+	mes "[Marido]";
+	mes "Humm? Eu não sei. Mas, é muito";
+	mes "linda.";
+	next;
+	
+	emotion 1;
+	mes "[Esposa]";
+	mes "Querido, sou bonita? Ou, a flor é";
+	mes "mais?";
+	next;
+	
+	donpcevent "Casal adoravel#1::OnEmoteA";//*Marido: emotion 30* donevent event*/
+	
+	mes "[Marido]";
+	mes "Não importa a beleza da flor, você";
+	mes "sempre será mais bonita~<3";
+	next;
+	
+	emotion 31;
+	mes  "[Esposa]";
+	mes "Mesmo? Sou tão linda assim? Eu amo";
+	mes "você, querido ~ <3";
+	next;
+	
+	emotion 18;
+	
+	//Esposa: emotion 18 // HELP ??
+	
+	mes "[Casal adorável]";
+	mes "Hahahahahahahahahahahahahahahahahah";
+	mes "ahahahahahahahahahahahahahahahahaha";
+	mes "ha";
+	mes "Hohohohohohohohohohohohohohohohohoh";
+	mes "ohohohohohohohohohohohohohohohohoho";
+	mes "ho";
+	
+	next;
+	mes "Credo, odeio isso. Vamos embora.";
+	close;
+	
+	OnEmoteA:
+		emotion 31;
+		end;
+		
+	OnEmoteB:
+		emotion 18;
+		end;
+	
+}dewata,245,244,5	script	Sr Dingwan	75,{//sprite errado
+
+
+	emotion 6;
+	mes "[Sr. Dingwan]";
+	mes "Argg~ Isso está me aborrecendo,de";
+	mes "verdade !";
+	next;
+	
+	mes "[Sr. Dingwan]";
+	mes "Como mais e mais casais chegam a";
+	mes "nossa pensão, todos os dias?";
+	next;
+	
+	mes "E por que eles têm de falar todas";
+	mes "aquelas coisas melosas? O que é";
+	mes "aquilo?";
+	next;
+	
+	mes "[Sr. Dingwan]";
+	mes "Qual é, tenha um pouco de respeito";
+	mes "por quem trabalha aqui...";
+	close;
+
+
+}dewata,211,272,5	script	Sr Jiawang	4,4,75,{//sprite errado
+
+	mes "[Sr. Jiawang]";
+	mes "Ultimamente , temos muitos casais em";
+	mes "lua-de-mel, aqui.";
+	mes "Deve ser pelas belas paisagens,";
+	mes "certo?";
+	next;
+	
+	mes "[Sr. Jiawang]";
+	mes "Sou feliz com o meu négocio.Espero";
+	mes "que todos os casais venham aqui";
+	mes "para a sua lua-de-mel";
+	next;
+	
+	mes "Sr. Jiawang]";
+	mes "Ha! Você deve trazer a sua pessoa";
+	mes "amada para a lua-de-mel em Dewata";
+	mes "Vou lhe dar um bom preço";
+	close;
+
+	
+	OnTouch:
+		mes "[Sr. Jiawang]";
+		mes "Não pertube nossos hóspedes em";
+		mes "lua-de-mel, lá dentro";
+	close;
+
+
+}dewata,181,88,3	script	Jovem em Dewata	75,{//sprite errado
+
+
+	mes "[Jovem em Dewata]";
+	mes "A praia de Dewata não é";
+	mes "muito bonita?";
+	mes "Aquelas crianças brincando";
+	mes "pela praia,sempre";
+	mes "me lembram da minha juventude";
+	next;
+	
+	mes "[Jovem em Dewata]";
+	mes "De noite, é ótimo";
+	mes "ter fogos de artifíci na praia.";
+	mes "Com a brisa do oceano, o barulho";
+	mes "das ondas,";
+	mes "e luzes dos fogos de artifício,";
+	mes "será uma noite maravilhosa!";
+	close;
+
 }
+
+
+
 
 
 
