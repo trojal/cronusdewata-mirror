@@ -1,0 +1,243 @@
+//===== Cronus Script ======================================== 
+//= NPCs de Dewata
+//===== Por: ================================================= 
+//= Mooka
+//===== Versão: ============================================== 
+//= 1.0
+//===== Compatível com: ====================================== 
+//= Emulador [3316+]; Cliente [EP 13.3]
+//===== Descrição: =========================================== 
+//= [Extraído do bRO in-game]
+//===== Comentários adicionais: ============================== 
+//= 1.0 
+// * Criação dos NPCs [Mooka, Pixel]
+// * Coleta de textos e informações [Pedro xD, Pixel]
+//============================================================ 
+
+
+alberta,240,46,5	script	Marinheiro de Dewata	-1,{
+
+	mes "[Marinheiro de Dewata]";
+	mes "Quer visitar a ilha Dewata";
+	mes "com ondas deslumbrantes";
+	mes "que dão descanso à sua alma ?";
+	mes "a taxa de transferência é de";
+	mes "10000 Zenys";
+	mes "Mas como acabamos de descobrir";
+	mes "esta";
+	mes "magnífica ilha, não cobraremos por enquanto!";
+	next;
+	if(select("Sim:Não") == 1)
+	{
+		next;
+		/* Não implementado ainda no bRO
+		
+		if(Zeny < 10000)
+		{
+			mes "Sem zeny";
+			close;
+		}
+		*/
+
+		mes "Dewata é";
+		mes "um belo pacífico";
+		mes "país insular.";
+		mes "tenha uma boa viagem.";
+		close2;
+		//set Zeny, Zeny - 10000;
+		warp "dewata",0,0;
+		close;
+	}
+	else
+	{
+		next;
+		mes "Avise-me"
+		mes "quando quiser viajar";
+		close;
+	}
+}
+
+
+
+dewata,229,49,5	script	Marinheiro de Alberta	-1,{
+
+
+	mes "[Marinheiro de Alberta]";
+	mes "quer voltar a Alberta ??";
+	if(select("Sim:Não") == 1)
+	{
+		next;
+		mes "[Marinheiro de Alberta]";
+		mes "Espero que tenha gostado do";
+		mes "passeio";
+		mes "na Ilha Dewata !";
+		mes "Aguardamos seu retorno !";
+		warp "alberta", 0, 0;
+	}
+	else
+	{
+		next;
+		mes "[Marinheiro de Alberta]";
+		mes "Divirta-se ainda mais";
+		mes "na nossa Ilha";
+		mes "Dewata.";
+	}
+	close;
+}
+
+
+dewata,235,56,4	script	Gatekeeper of Krakatau	-1,{
+
+	mes "[Guardião do Vulcão Krakatau]";
+	mes "O vulcão Krakakatu é uma área muito perigosa,";
+	mes "nem todos podem entrar lá";
+
+	if(select("Deixe-me entrar:Não quero entrar"))
+	{
+		next;
+		mes "[Guardião do Vulcão Krakatau]";
+		mes "O Vulcão Krakatau é";
+		mes "uma área muito perigosa";
+		mes "então, não posso deixar você entrar.";
+		mes "Primeiro, se qualifique para entrar";
+		mes "e volte, novamente";
+	}
+	else
+	{
+		next;
+		mes "[Guardião do Vulcão Krakatau]";
+		mes "Fez a escolha certa";
+		mes "O Vulcão Krakatau é";
+		mes "uma área extremamente perigosa...";
+	}
+	close;
+}
+
+
+
+
+dewata,249,87,5	script	Mãe	101,{
+
+	mes "[Mãe]";
+	mes "Ukki~ Ukki~ Aonde ela foi???";
+	close;
+}
+
+
+
+dewata,250,85,5	script	Pai	97,{
+
+	mes "[Pai]";
+	mes "Querida, Ukki sumiu de novo?";
+	emotion e_hmm;
+	next;
+	mes "[Pai]";
+	emotion e_wah;
+	mes "Arrgg.. Não posso ir a lugar algum";
+	mes "como ela... Quantas vezes isso já aconteceu?";
+	close;
+
+}
+
+
+dewata,154,107,5	script	Turista de passagem	,{
+
+
+	mes "[Turista de passagem]";
+	mes "Uau... Quantos ele já comeu?";
+	next;
+	mes "[Turista de passagem]";
+	mes "Ele deve ser um comilão, não um";
+	mes "apreciador...";
+
+	if(dew_tur)
+	{
+		next;
+		mes "[Turista de passagem]";
+		mes "Você já esteve em Prontera? Acho";
+		mes "que já o vi em algum lugar...";		
+	}
+
+	set dew_tur, 1;
+	close;
+}
+
+dewata,146,109,5	script	Sr.Dwi Oblo	-1,{
+
+
+	mes "[Sr. Dwi Oblo]";
+	mes "Bem-vindo a ilha Dewata.";
+	mes "Gostaria que você se comportasse";
+	mes "como um nobre viajante, não como";
+	mes "aqueles rebeldes adolescentes...";
+	
+	if(dew_dwi)
+	{
+		next;
+		switch(select("Sobre comidas de Dewata:Cardápio de hoje?:Não preciso de nada."))
+		{
+		case 1:
+			next;
+			mes "[Sr. Dwi Oblo]";
+			mes "Precisa de informações sobre nossas";
+			mes "comidas? Bem... Não tenho muito a";
+			mes "dizer, mas fique à vontade para";
+			mes "ouvir, se quiser.";
+			next;
+			mes "[Sr. Dwi Oblo]";
+			mes "sim... Essa seria uma boa informação.";
+			next;
+			mes "[Sr. Dwi Oblo]";
+			mes "Primeiro, os pratos de Dewata têm";
+			mes "nomes especiais baseados em cada";
+			mes "tipo de comida.";
+			next;
+			mes "[Sr. Dwi Oblo]";
+			mes "se o nome do prato tiver 'Goreng'";
+			mes "nele, são comidas misturadas ou";
+			mes "fritas";
+			next;
+			mes "[Sr. Dwi Oblo]";
+			mes "Se for um tipo de 'Bakar', então";
+			mes " são comidas grelhadas.";
+			next;
+			mes "[Sr. Dwi Oblo]";
+			mes "E se for 'Saté', você estará";
+			mes "comendo um prato de espeto.";
+			next;
+			mes "[Sr. Dwi Oblo]";
+			mes "Segundo, temos pratos com nomes de";
+			mes "ingredientes básicos,";
+			next;
+			mes "[Sr. Dwi Oblo]";
+			mes "Na ilha de Dewatam chamamos arroz";
+			mes "de Nasi, macarrão de Mie, pão de
+			mes "Roti, frango de Ayam, peixe de Ikan";
+			mes "e milho de Jagung";
+			close;
+
+		case 2:
+			switch(gettime
+
+			mes "Nós temos 2 'Nasi Goreng' e 'Saté'";
+			mes "no Cardápio, qual você quer?";
+
+		}
+
+
+
+
+
+	}
+
+	set dew_dwi, 1;
+	close;
+
+
+
+
+
+
+
+
+}
