@@ -349,8 +349,7 @@ dewata,146,109,5	script	Sr.Dwi Oblo	-1,{
 		emotion 18;
 		end;
 	
-}dewata,245,244,5	script	Sr Dingwan	75,{//sprite errado
-
+}dewata,245,244,5	script	Sr Dingwan	75,{
 
 	emotion 6;
 	mes "[Sr. Dingwan]";
@@ -374,7 +373,7 @@ dewata,146,109,5	script	Sr.Dwi Oblo	-1,{
 	close;
 
 
-}dewata,211,272,5	script	Sr Jiawang	4,4,75,{//sprite errado
+}dewata,211,272,5	script	Sr Jiawang	4,4,75,{	
 
 	mes "[Sr. Jiawang]";
 	mes "Ultimamente , temos muitos casais em";
@@ -403,7 +402,7 @@ dewata,146,109,5	script	Sr.Dwi Oblo	-1,{
 	close;
 
 
-}dewata,181,88,3	script	Jovem em Dewata	75,{//sprite errado
+}dewata,181,88,3	script	Jovem em Dewata	75,{
 
 
 	mes "[Jovem em Dewata]";
@@ -424,6 +423,7 @@ dewata,146,109,5	script	Sr.Dwi Oblo	-1,{
 	close;
 
 }
+//sprite 75 errado.
 
 
 
