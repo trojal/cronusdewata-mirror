@@ -1,0 +1,15 @@
+//Joao Pedro
+
+Nome: Mulher de dieta
+Posição: dewata,204,230,3
+
+[Mulher de dieta]
+[Ha, que fome!]
+[Eu deveria esta de regime.]
+[Por que ainda tenho fome?]
+(next)
+[Mulher de dietat]
+[Não fale comigo!]
+[Quero muito o ^006300Saté^000000 grelhado]
+[muito mesmo!!!]
+(close)

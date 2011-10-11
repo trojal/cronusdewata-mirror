@@ -1,0 +1,24 @@
+// Joao Pedro
+
+
+
+Nome: Jovem Sonhador
+Posição: dewata,117,156
+
+[Jovem Sonhador]
+[Minha avó disse]
+[que, uma vez, um pássaro chamado]
+[^FF0000Garuda^000000]
+[voou por esta cidade.]
+[E, depois, tivemos uma grande]
+[colheita]
+[e todos ficaram felizes.]
+(next)
+[Jovem Sonhador]
+[Quero ver esse pássaro]
+[voar pela nossa cidade de novo!]
+[Então minha mãe, meu pai]
+[e meus avós]
+[viveriam todos felizes e unidos.]
+[Você não acha?]
+(close)

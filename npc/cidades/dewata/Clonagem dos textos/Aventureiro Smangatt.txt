@@ -1,0 +1,26 @@
+//Joao Pedro
+
+Nome: Aventureiro Semangatt
+Posição: dewata,165,103,4
+
+[Aventureiro Semangat]
+[Também viajei pelo mundo]
+[Quando eu era jovem como você.]
+[^FF0000Macaco, Siba^000000]
+[^FF0000Águia, Serpente^000000,]
+[Todos que conheci são bons amigos]
+[Durante a viagem]
+(next)
+[Aventureiro Semangatt]
+[Eu ainda tenho uma paixão por]
+[aventuras e viagens]
+[Mas, não posso abandonar]
+[Minha querida mulher e]
+[meus netos]
+[Huh Huh Huh.]
+(next)
+[Aventureiro Semangatt]
+[Você também vai ter algo]
+[ou alguém muito precioso]
+[em seu coração um dia.]
+(close) 
