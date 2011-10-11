@@ -217,27 +217,53 @@ dewata,146,109,5	script	Sr.Dwi Oblo	-1,{
 			close;
 
 		case 2:
-			switch(gettime
-
+			next;
+			mes "[Sr. Dwi Oblo]";
 			mes "Nós temos 2 'Nasi Goreng' e 'Saté'";
 			mes "no Cardápio, qual você quer?";
 
+			set @choice, select("Nasi Goreng:Saté");
+			next;
+			if(@choice)
+			{
+				mes "[Sr. Dwi Oblo]";
+				mes "Esse é o Nasi Goreng frito com meu";
+				mes "molho especial e ovo frito em cima,";
+				mes "custa apenas ^0000FF5000^000000 Zeny.";
+			}
+			else
+			{
+				mes "[Sr. Dwi Oblo]";
+				mes "Esse é o Saté, um pedaço de carne";
+				mes "no espeto, grelhado no carvão de";
+				mes "fruto de Palmeira, custa apenas";
+				mes "^0000FF5000^000000 Zeny.";
+			}
+			next;
+			if(select("Experimentar:Ir Embora") == 1)
+			{
+				mes "[Sr. Dwi Oblo]";
+				mes "Aqui está o seu "+(@choice? "Nasi Goreng" : "Saté")+", você";
+				mes "não vai se arrepender.";
+				getitem (@choice ? "Nasi Goreng" : "Saté"), 1;
+			}
+			else
+			{
+				mes "[Sr. Dwi Oblo]";
+				mes "É uma pena você não experimentar";
+				mes "esse prato, ele é ótimo...";
+			}
+			close;
 		}
-
-
-
-
-
 	}
 
 	set dew_dwi, 1;
 	close;
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
