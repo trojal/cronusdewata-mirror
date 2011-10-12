@@ -1,0 +1,74 @@
+Nome: Casal adorável
+Posição: 233,263,0
+Sprite: 828
+
+emotion 30
+[Marido]
+[Você é a coisa mais linda do mundo,]
+[querida~ <3]
+(next)
+Esposa: emotion 31
+[Esposa]
+[Mesmo? Sou tão linda assim? Eu amo]
+[você, querido ~ <3]
+(next)
+emotion 18
+Esposa: emotion 18
+[Casal adorável]
+[Hahahahahahahahahahahahahahahahahah]
+[ahahahahahahahahahahahahahahahahaha]
+[ha]
+[Hohohohohohohohohohohohohohohohohoh]
+[ohohohohohohohohohohohohohohohohoho]
+[ho]
+(next)
+[Credo, odeio isso. Vamos embora.]
+(close)
+
+
+
+-----
+
+
+
+
+Nome: Casal adorável
+Posição: 234,263
+Sprite: 727
+
+emotion 1
+[Esposa]
+[Querido ~ Você sabe que a flor é]
+[essa~?]
+(next)
+[Marido]
+[Humm? Eu não sei. Mas, é muito]
+[linda.]
+(next)
+emotion 1
+[Esposa]
+[Querido, sou bonita? Ou, a flor é]
+[mais?]
+(next)
+Marido: emotion 30
+[Marido]
+[Não importa a beleza da flor, você]
+[sempre será mais bonita~<3]
+(next)
+emotion 31
+[Esposa]
+[Mesmo? Sou tão linda assim? Eu amo]
+[você, querido ~ <3]
+(next)
+emotion 18
+Esposa: emotion 18
+[Casal adorável]
+[Hahahahahahahahahahahahahahahahahah]
+[ahahahahahahahahahahahahahahahahaha]
+[ha]
+[Hohohohohohohohohohohohohohohohohoh]
+[ohohohohohohohohohohohohohohohohoho]
+[ho]
+(next)
+[Credo, odeio isso. Vamos embora.]
+(close)
