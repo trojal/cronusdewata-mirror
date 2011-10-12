@@ -1,0 +1,12 @@
+dewata,279,100,3	script	Ukki	-1,{
+
+	mes "[Ukki]"
+	mes "Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·~";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "Ei..."
+	next;
+	mes "[Ukki]";
+	mes "Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·~";
+	close;
+}
