@@ -1,11 +1,7 @@
-Nome: Casal adorável
-Posição: 233,263,0
-Sprite: 828
+dewata,233,263,0	script	Casal adorável	828,{
 
-
-	mes "
 	//emotion 30
-	mes "Marido";
+	mes "[Marido]";
 	mes "Você é a coisa mais linda do mundo,";
 	mes "querida~ <3";
 	next;
@@ -26,19 +22,13 @@ Sprite: 828
 	next;
 	mes "Credo, odeio isso. Vamos embora.";
 	close;
+}
 
 
-
------
-
+dewata,234,263,5	script	Casal adorável	727,{
 
 
-
-Nome: Casal adorável
-Posição: 234,263
-Sprite: 727
-
-emotion 1
+//emotion 1
 	mes "Esposa";
 	mes "Querido ~ Você sabe que a flor é";
 	mes "essa~?";
@@ -47,23 +37,23 @@ emotion 1
 	mes "Humm? Eu não sei. Mas, é muito";
 	mes "linda.";
 	next;
-emotion 1
+//emotion 1
 	mes "Esposa";
 	mes "Querido, sou bonita? Ou, a flor é";
 	mes "mais?";
 	next;
-Marido: emotion 30
+//Marido: emotion 30
 	mes "Marido";
 	mes "Não importa a beleza da flor, você";
 	mes "sempre será mais bonita~<3";
 	next;
-emotion 31
+//emotion 31
 	mes "Esposa";
 	mes "Mesmo? Sou tão linda assim? Eu amo";
 	mes "você, querido ~ <3";
 	next;
-emotion 18
-Esposa: emotion 18
+//emotion 18
+//Esposa: emotion 18
 	mes "Casal adorável";
 	mes "Hahahahahahahahahahahahahahahahahah";
 	mes "ahahahahahahahahahahahahahahahahaha";
@@ -73,4 +63,5 @@ Esposa: emotion 18
 	mes "ho";
 	next;
 	mes "Credo, odeio isso. Vamos embora.";
-(close)
+	close;
+}
