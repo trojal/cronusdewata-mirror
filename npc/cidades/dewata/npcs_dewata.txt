@@ -140,7 +140,7 @@ dewata,250,85,5	script	Pai	97,{
 }
 
 
-dewata,154,107,5	script	Turista de passagem	,{
+dewata,154,107,5	script	Turista de passagem	-1,{
 
 
 	mes "[Turista de passagem]";
@@ -162,7 +162,7 @@ dewata,154,107,5	script	Turista de passagem	,{
 	close;
 }
 
-dewata,146,109,5	script	Sr.Dwi Oblo	-1,{
+dewata,146,109,4	script	Sr.Dwi Oblo	-1,{
 
 
 	mes "[Sr. Dwi Oblo]";
@@ -259,7 +259,9 @@ dewata,146,109,5	script	Sr.Dwi Oblo	-1,{
 
 	set dew_dwi, 1;
 	close;
-}dewata,233,263,0	script	Casal adoravel#1	75,{
+}
+
+dewata,233,263,0	script	Casal adoravel#1	75,{
 
 	emotion 30;
 	mes "[Marido]";
@@ -293,7 +295,9 @@ dewata,146,109,5	script	Sr.Dwi Oblo	-1,{
 		emotion 30;
 		end;
 		
-}dewata,234,263,0	script	Casal adoravel#2	75,{
+}
+
+dewata,234,263,0	script	Casal adoravel#2	75,{
 
 	emotion 1;
 	mes "[Esposa]";
@@ -349,7 +353,9 @@ dewata,146,109,5	script	Sr.Dwi Oblo	-1,{
 		emotion 18;
 		end;
 	
-}dewata,245,244,5	script	Sr Dingwan	75,{
+}
+
+dewata,245,244,5	script	Sr Dingwan	75,{
 
 	emotion 6;
 	mes "[Sr. Dingwan]";
@@ -373,7 +379,9 @@ dewata,146,109,5	script	Sr.Dwi Oblo	-1,{
 	close;
 
 
-}dewata,211,272,5	script	Sr Jiawang	4,4,75,{	
+}
+
+dewata,211,272,5	script	Sr Jiawang	4,4,75,{	
 
 	mes "[Sr. Jiawang]";
 	mes "Ultimamente , temos muitos casais em";
@@ -402,7 +410,9 @@ dewata,146,109,5	script	Sr.Dwi Oblo	-1,{
 	close;
 
 
-}dewata,181,88,3	script	Jovem em Dewata	75,{
+}
+
+dewata,181,88,3	script	Jovem em Dewata	75,{
 
 
 	mes "[Jovem em Dewata]";
