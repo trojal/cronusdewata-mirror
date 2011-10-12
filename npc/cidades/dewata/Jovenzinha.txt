@@ -1,0 +1,24 @@
+dewata,179,204,3	script	Jovenzinha	-1,{
+
+mes "[Jovenzinha]";
+mes "Quando você estiver fora da cidade";
+mes "e encontrar um ^FF0000Tigre, Macaco ou^000000";
+mes "^FF0000Porco^000000,";
+mes "tente evitá-los.";
+if(select("O que você quer dizer?") == 1) {
+mes "[Jovenzinha]";
+mes "Eu nunca vi,";
+mes "mas, diz a lenda que há um";
+mes "monstro cruel chamado ^FF0000Leak^000000";
+mes "que tem a forma de um animal";
+mes "e mata as pessoas.";
+next;
+mes "[Jovenzinha]";
+mes "Sabe como é o Mundo de hoje em";
+mes "dia...";
+mes " É sempre bom tomar cuidado";
+mes "mesmo que seja uma lenda urbana.";
+emotion 20;
+close;
+}
+}
