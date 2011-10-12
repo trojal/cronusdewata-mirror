@@ -1,4 +1,4 @@
-dewata,226,129
+dewata,226,129,4
 
 dialog "[Sarr]"
 dialog "Esconde-esconde! Vou encontrar você!"
