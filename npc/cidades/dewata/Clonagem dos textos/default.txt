@@ -1,4 +1,0 @@
-dialog "[Sr. Jiawang]"
-dialog "Não perturbe nossos hóspedes em lua-de-mel, lá dentro."
-close
--------------- SESSION ENDED --------------

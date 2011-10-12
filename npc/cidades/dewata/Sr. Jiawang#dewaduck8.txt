@@ -1,0 +1,22 @@
+dewata,211,272,4	script	Sr. Jiawang	-1,4,4{
+
+	mes "[Sr. Jiawang]";
+	mes "Ultimamente, temos muitos casais em lua-de-mel, aqui.";
+	next;
+	mes "[Sr. Jiawang]";
+	mes "Deve ser pelas belas paisagens, certo?";
+	next;
+	mes "[Sr. Jiawang]";
+	mes "Sou feliz com o meu negócio. Espero que todos os casais venham aqui para a sua lua-de-mel.";
+	next;
+	mes "[Sr. Jiawang]";
+	mes "Ah! Você deve trazer a sua pessoa amada para a lua-de-mel em Dewata. Vou lhe dar um bom preço.";
+	close
+;
+
+OnTouch:
+	mes "[Sr. Jiawang]";
+	mes "Não perturbe nossos hóspedes em lua-de-mel, lá dentro.";
+	close;
+
+}

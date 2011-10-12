@@ -1,0 +1,12 @@
+dewata,0,0,0	script	Rustam	-1,{
+
+	mes "[Rustam]";
+	mes "Oh... Oh... Meu Deus... Que delícia...";
+	next;
+	mes "[Rustam]";
+	mes "Mestre, Mais um, por favor";
+	next;
+	mes "[Rustam]";
+	mes "Você tem de experimentar isso! Todas as comidas daqui são ótimas";
+	close;
+}

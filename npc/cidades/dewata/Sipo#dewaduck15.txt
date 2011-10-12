@@ -1,0 +1,12 @@
+dewata,192,145,4	script	Sipo	-1,{
+
+	mes "[Sipo]"
+	mes "Sarr não vai me encontrar aqui, certo?"
+	next;
+	mes "[Sarr]"
+	mes "Encontrei Siyak!! Saiam, saiam!!!"
+	next;
+	mes "[Sipo]"
+	mes "Hehe. Agora é a vez de Siyak. Vou continuar me escondendo aqui."
+	close;
+}
