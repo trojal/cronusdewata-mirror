@@ -1,4 +1,4 @@
-dewata,117,156,3	script	Jovem Sonhador	-1{
+dewata,117,156,3	script	Jovem Sonhador	538,{
 
 	mes "[Jovem Sonhador]";
 	mes "Minha avó disse";
