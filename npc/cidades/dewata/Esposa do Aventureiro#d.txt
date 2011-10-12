@@ -33,6 +33,5 @@ dewata,138,114,6	script	Espoda do Aventureiro	-1,{
 		mes "Por favor me avise"
 		mes "Se o vir em algum lugar"
 	}
-	close
-;
+	close;
 }
