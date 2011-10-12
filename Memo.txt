@@ -1,0 +1,8 @@
+Nome: Memo
+Posição: 109,262,5
+Sprite: 
+
+[Memo]
+{Dewata está sempre cheio, mas hoje}
+{está tranquilo.}
+(close)
