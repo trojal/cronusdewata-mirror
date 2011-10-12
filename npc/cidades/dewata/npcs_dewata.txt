@@ -30,22 +30,12 @@ alberta,240,46,5	script	Marinheiro de Dewata	-1,{
 	if(select("Sim:Não") == 1)
 	{
 		next;
-		/* Não implementado ainda no bRO
-		
-		if(Zeny < 10000)
-		{
-			mes "Sem zeny";
-			close;
-		}
-		*/
-
 		mes "Dewata é";
 		mes "um belo pacífico";
 		mes "país insular.";
 		mes "tenha uma boa viagem.";
 		close2;
-		//set Zeny, Zeny - 10000;
-		warp "dewata",0,0;
+		warp "dewata",232,53;
 		close;
 	}
 	else
@@ -63,14 +53,15 @@ dewata,229,49,5	script	Marinheiro de Alberta	-1,{
 
 
 	mes "[Marinheiro de Alberta]";
-	mes "quer voltar a Alberta ??";
+	mes "Quer voltar a ^8B4513Alberta^000000??";
+	next;
 	if(select("Sim:Não") == 1)
 	{
 		next;
 		mes "[Marinheiro de Alberta]";
 		mes "Espero que tenha gostado do";
 		mes "passeio";
-		mes "na Ilha Dewata !";
+		mes "na ilha ^8B4513Dewata^000000!";
 		mes "Aguardamos seu retorno !";
 		warp "alberta", 0, 0;
 	}
