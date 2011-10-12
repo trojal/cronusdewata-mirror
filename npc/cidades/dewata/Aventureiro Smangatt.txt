@@ -1,0 +1,24 @@
+dewata,165,103,4	script	Aventureiro Semangatt	-1,{
+
+	mes "Aventureiro Semangat";
+	mes "Também viajei pelo mundo";
+	mes "Quando eu era jovem como você.";
+	mes "^FF0000Macaco, Siba^000000";
+	mes "^FF0000Águia, Serpente^000000,";
+	mes "Todos que conheci são bons amigos";
+	mes "Durante a viagem";
+	next;
+	mes "Aventureiro Semangatt";
+	mes "Eu ainda tenho uma paixão por";
+	mes "aventuras e viagens";
+	mes "Mas, não posso abandonar";
+	mes "Minha querida mulher e";
+	mes "meus netos";
+	mes "Huh Huh Huh.";
+	next;
+	mes "Aventureiro Semangatt";
+	mes "Você também vai ter algo";
+	mes "ou alguém muito precioso";
+	mes "em seu coração um dia.";
+	close;
+}
