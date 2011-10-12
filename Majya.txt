@@ -1,0 +1,20 @@
+Nome: Majya
+Posição: 228,178,5
+Sprite: 538
+
+[Majya]
+{Eu só estava brincando de}
+{esconde-esconde com meus amigos...}
+(next)
+emotion 20
+[Majya]
+{Só estava parado aqui... Faz três}
+{horas e eles ainda não me}
+{encontraram...}
+(next)
+[Majya]
+{O que devo fazer? Sair? Não quero}
+{que seja minha vez de}
+{procurar...}
+(close)
+
