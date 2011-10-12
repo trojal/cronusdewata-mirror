@@ -1,0 +1,17 @@
+Nome: Turista
+Posição: 99,203,5
+Sprite: 755
+
+[Turista]
+{Oh, isso é muito interessante. Um}
+{templo venerando o Buda...}
+(next)
+[Turista]
+{Mas, eu não entendi direito essa}
+{parte que você estava nos}
+{contando.}
+(next)
+[Turista]
+{E... Aqui... O que há de errado com}
+{essa parte?}
+(close)
