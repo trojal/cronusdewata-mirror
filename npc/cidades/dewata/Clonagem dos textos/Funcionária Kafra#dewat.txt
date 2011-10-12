@@ -1,0 +1,76 @@
+dialog "[Funcionária Kafra]"
+dialog "Olá! O Serviço Kafra está sempre está ao seu lado."
+dialog "Em que posso ajudar?"
+wait
+menu "Salvar:Usar Armazém:Alugar um Carrinho:Verificar Pontos:Cancelar:"
+dialog "[Funcionária Kafra]"
+dialog "Os pontos foram salvos"
+dialog "Obrigado por nos visitar."
+close
+-------------- SESSION ENDED --------------
+dialog "[Funcionária Kafra]"
+dialog "Olá! O Serviço Kafra está sempre está ao seu lado."
+dialog "Em que posso ajudar?"
+wait
+menu "Salvar:Usar Armazém:Alugar um Carrinho:Verificar Pontos:Cancelar:"
+dialog "[Funcionária Kafra]"
+dialog "Gostaríamos de abrir o armazem."
+dialog "Obrigado por nos visitar."
+close
+-------------- SESSION ENDED --------------
+dialog "[Funcionária Kafra]"
+dialog "Olá! O Serviço Kafra está sempre está ao seu lado."
+dialog "Em que posso ajudar?"
+wait
+menu "Salvar:Usar Armazém:Alugar um Carrinho:Verificar Pontos:Cancelar:"
+dialog "[Funcionária Kafra]"
+dialog "Desculpe."
+dialog "Os carrinhos estão disponíveis apenas para a classe Mercadores."
+close
+-------------- SESSION ENDED --------------
+dialog "[Funcionária Kafra]"
+dialog "Olá! O Serviço Kafra está sempre está ao seu lado."
+dialog "Em que posso ajudar?"
+wait
+menu "Salvar:Usar Armazém:Alugar um Carrinho:Verificar Pontos:Cancelar:"
+menu "Verifique os pontos acumulados.:Cancelar:"
+dialog "[Funcionária Kafra]"
+dialog "n Sexyseus pontos são  30733."
+wait
+dialog "[Funcionária Kafra]"
+dialog "Os pontos são suficientes para troca pelo produto."
+dialog "Aproveite nossos serviços e pegue muitos produtos excelentes."
+close
+-------------- SESSION ENDED --------------
+dialog "[Funcionária Kafra]"
+dialog "Olá! O Serviço Kafra está sempre está ao seu lado."
+dialog "Em que posso ajudar?"
+wait
+menu "Salvar:Usar Armazém:Alugar um Carrinho:Verificar Pontos:Cancelar:"
+menu "Verifique os pontos acumulados.:Cancelar:"
+dialog "[Funcionária Kafra]"
+dialog "n Sexyseus pontos são  30733."
+wait
+dialog "[Funcionária Kafra]"
+dialog "Os pontos são suficientes para troca pelo produto."
+dialog "Aproveite nossos serviços e pegue muitos produtos excelentes."
+close
+-------------- SESSION ENDED --------------
+dialog "[Funcionária Kafra]"
+dialog "Olá! O Serviço Kafra está sempre está ao seu lado."
+dialog "Em que posso ajudar?"
+wait
+menu "Salvar:Usar Armazém:Alugar um Carrinho:Verificar Pontos:Cancelar:"
+menu "Verifique os pontos acumulados.:Cancelar:"
+close
+-------------- SESSION ENDED --------------
+dialog "[Funcionária Kafra]"
+dialog "Olá! O Serviço Kafra está sempre está ao seu lado."
+dialog "Em que posso ajudar?"
+wait
+menu "Salvar:Usar Armazém:Alugar um Carrinho:Verificar Pontos:Cancelar:"
+dialog "[Funcionária Kafra]"
+dialog "Estamos fazendo nosso melhor para cumprir a sua expectativa com o melhor serviço e gerenciamento rigoroso."
+dialog "Obrigado por nos visitar."
+close
+-------------- SESSION ENDED --------------

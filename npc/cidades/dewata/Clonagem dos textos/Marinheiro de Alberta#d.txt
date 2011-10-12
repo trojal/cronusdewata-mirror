@@ -1,0 +1,10 @@
+dialog "[Marinheiro de Alberta]"
+dialog "Quer voltar a ^8B4513Alberta^000000??"
+wait
+menu "Sim:Não:"
+dialog "[Marinheiro de Alberta]"
+dialog "Espero que tenha gostado do passeio"
+dialog "na ilha ^8B4513Dewata^000000!"
+dialog "Aguardamos seu retorno!"
+close
+-------------- SESSION ENDED --------------

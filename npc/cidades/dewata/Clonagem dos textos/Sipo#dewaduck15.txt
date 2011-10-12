@@ -1,0 +1,27 @@
+dewata,192,145,4
+
+dialog "[Sipo]"
+dialog "Sarr não vai me encontrar aqui, certo?"
+wait
+close
+-------------- SESSION ENDED --------------
+dialog "[Sipo]"
+dialog "Sarr não vai me encontrar aqui, certo?"
+wait
+dialog "[Sarr]"
+dialog "Encontrei Siyak!! Saiam, saiam!!!"
+wait
+dialog "[Sipo]"
+dialog "Hehe. Agora é a vez de Siyak. Vou continuar me escondendo aqui."
+close
+-------------- SESSION ENDED --------------
+dialog "[Sipo]"
+dialog "Sarr não vai me encontrar aqui, certo?"
+wait
+dialog "[Sarr]"
+dialog "Encontrei Siyak!! Saiam, saiam!!!"
+wait
+dialog "[Sipo]"
+dialog "Hehe. Agora é a vez de Siyak. Vou continuar me escondendo aqui."
+close
+-------------- SESSION ENDED --------------

@@ -1,0 +1,66 @@
+dialog "[Esposa do Aventureiro]"
+dialog "Onde está o meu velho marido"
+dialog "de novo? "
+dialog "Você... "
+dialog "Viu meu marido por aqui?"
+wait
+menu "Acho que o vi ali...:Não, não vi...:"
+dialog "[Esposa do Aventureiro]"
+dialog "Ele fugiu quando"
+dialog "eu estava procurando por ele."
+dialog "Ele deve estar em algum lugar, enganando"
+dialog "algum viajante, agora."
+wait
+dialog "[Esposa do Aventureiro]"
+dialog "Peço desculpas"
+dialog "em nome de meu marido."
+dialog "Por favor, não acredite em histórias como aquela"
+dialog "que ele diz ter encontrado um ^FF0000macaco cruel^000000 ou"
+dialog "lutar com a ^FF0000siba^000000."
+wait
+dialog "[Esposa do Aventureiro]"
+dialog "Ele viveu aqui"
+dialog "a vida toda."
+dialog "Porém, ele sempre encontra viajantes"
+dialog "e os engana com suas histórias."
+close
+-------------- SESSION ENDED --------------
+dialog "[Esposa do Aventureiro]"
+dialog "Onde está o meu velho marido"
+dialog "de novo? "
+dialog "Você... "
+dialog "Viu meu marido por aqui?"
+wait
+menu "Acho que o vi ali...:Não, não vi...:"
+dialog "[Esposa do Aventureiro]"
+dialog "Por favor me avise"
+dialog "Se o vir em algum lugar"
+close
+-------------- SESSION ENDED --------------
+dialog "[Esposa do Aventureiro]"
+dialog "Onde está o meu velho marido"
+dialog "de novo? "
+dialog "Você... "
+dialog "Viu meu marido por aqui?"
+wait
+menu "Acho que o vi ali...:Não, não vi...:"
+dialog "[Esposa do Aventureiro]"
+dialog "Ele fugiu quando"
+dialog "eu estava procurando por ele."
+dialog "Ele deve estar em algum lugar, enganando"
+dialog "algum viajante, agora."
+wait
+dialog "[Esposa do Aventureiro]"
+dialog "Peço desculpas"
+dialog "em nome de meu marido."
+dialog "Por favor, não acredite em histórias como aquela"
+dialog "que ele diz ter encontrado um ^FF0000macaco cruel^000000 ou"
+dialog "lutar com a ^FF0000siba^000000."
+wait
+dialog "[Esposa do Aventureiro]"
+dialog "Ele viveu aqui"
+dialog "a vida toda."
+dialog "Porém, ele sempre encontra viajantes"
+dialog "e os engana com suas histórias."
+close
+-------------- SESSION ENDED --------------

@@ -1,0 +1,10 @@
+dialog "[Turista de passagem]"
+dialog "Uau... Quantos ele já comeu?"
+wait
+dialog "[Turista de passagem]"
+dialog "Ele deve ser um comilão, não um apreciador... "
+wait
+dialog "[Turista de passagem]"
+dialog "Você já esteve em Prontera? Acho que já o vi em algum lugar..."
+close
+-------------- SESSION ENDED --------------

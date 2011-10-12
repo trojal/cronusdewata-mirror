@@ -1,0 +1,29 @@
+dialog "[Marinheiro de Dewata]"
+dialog "Quer visitar a ^8B4513Ilha Dewata^000000"
+dialog "com ondas deslumbrantes"
+dialog "que dão descanso à sua alma?"
+dialog "A taxa de transferência é de"
+dialog "10000 Zenys."
+dialog "Mas como acabamos de descobrir esta"
+dialog "magnífica Ilha, não cobraremos por enquanto!"
+wait
+menu "Sim:Não:"
+close
+-------------- SESSION ENDED --------------
+dialog "[Marinheiro de Dewata]"
+dialog "Quer visitar a ^8B4513Ilha Dewata^000000"
+dialog "com ondas deslumbrantes"
+dialog "que dão descanso à sua alma?"
+dialog "A taxa de transferência é de"
+dialog "10000 Zenys."
+dialog "Mas como acabamos de descobrir esta"
+dialog "magnífica Ilha, não cobraremos por enquanto!"
+wait
+menu "Sim:Não:"
+dialog "[Marinheiro de Dewata]"
+dialog "^8B4513Dewata^000000 é "
+dialog "um belo e pacífico"
+dialog "país insular."
+dialog "Tenha uma boa viagem."
+close
+-------------- SESSION ENDED --------------

@@ -1,0 +1,67 @@
+dewata,196,184,
+
+dialog "[Guia de Dewata]"
+dialog "Ondas lindas e maravilhosas"
+dialog "Relaxe"
+dialog "Bem-vindo a ^8B4513Dewata^000000."
+dialog "Serei sua guia, se estiver procurando alguma coisa."
+wait
+menu "[   Funcionária Kafra   ]:[   Vendedor de armas    ]:[   Vendedor de Armaduras   ]:[   Vendedor de ferramentas    ]:[   Dono do restaurante    ]:[   Vulcão Krakatau  ]:[   Marinheiro de Alberta  ]:Apagar todos os pontos marcados do minimapa.:Cancelar:"
+dialog "[Guia de Dewata]"
+dialog "^0000FFFuncionária Kafra^000000 está "
+dialog "marcada no minimapa."
+dialog "Verifique o seu minimapa."
+dialog "Você precisa de mais alguma coisa?"
+wait
+menu "[   Funcionária Kafra   ]:[   Vendedor de armas    ]:[   Vendedor de Armaduras   ]:[   Vendedor de ferramentas    ]:[   Dono do restaurante    ]:[   Vulcão Krakatau  ]:[   Marinheiro de Alberta  ]:Apagar todos os pontos marcados do minimapa.:Cancelar:"
+dialog "[Guia de Dewata]"
+dialog "^008080Vendedor de armas^000000 está "
+dialog "marcado no minimapa."
+dialog "Verifique o seu minimapa."
+dialog "Você precisa de mais alguma coisa?"
+wait
+menu "[   Funcionária Kafra   ]:[   Vendedor de armas    ]:[   Vendedor de Armaduras   ]:[   Vendedor de ferramentas    ]:[   Dono do restaurante    ]:[   Vulcão Krakatau  ]:[   Marinheiro de Alberta  ]:Apagar todos os pontos marcados do minimapa.:Cancelar:"
+dialog "[Guia de Dewata]"
+dialog "^008080Vendedor de armaduras^000000 está "
+dialog "marcado no minimapa."
+dialog "Verifique o seu minimapa."
+dialog "Você precisa de mais alguma coisa?"
+wait
+menu "[   Funcionária Kafra   ]:[   Vendedor de armas    ]:[   Vendedor de Armaduras   ]:[   Vendedor de ferramentas    ]:[   Dono do restaurante    ]:[   Vulcão Krakatau  ]:[   Marinheiro de Alberta  ]:Apagar todos os pontos marcados do minimapa.:Cancelar:"
+dialog "[Guia de Dewata]"
+dialog "^FF1493Vendedor de ferramentas^000000 está "
+dialog "marcado no minimapa."
+dialog "Verifique o seu minimapa."
+dialog "Você precisa de mais alguma coisa?"
+wait
+menu "[   Funcionária Kafra   ]:[   Vendedor de armas    ]:[   Vendedor de Armaduras   ]:[   Vendedor de ferramentas    ]:[   Dono do restaurante    ]:[   Vulcão Krakatau  ]:[   Marinheiro de Alberta  ]:Apagar todos os pontos marcados do minimapa.:Cancelar:"
+dialog "[Guia de Dewata]"
+dialog "^FF1493Dono do Restaurante^000000 está "
+dialog "marcado no minimapa."
+dialog "Verifique o seu minimapa."
+dialog "Você precisa de mais alguma coisa?"
+wait
+menu "[   Funcionária Kafra   ]:[   Vendedor de armas    ]:[   Vendedor de Armaduras   ]:[   Vendedor de ferramentas    ]:[   Dono do restaurante    ]:[   Vulcão Krakatau  ]:[   Marinheiro de Alberta  ]:Apagar todos os pontos marcados do minimapa.:Cancelar:"
+dialog "[Guia de Dewata]"
+dialog "^8A2BE2Vulcão Krakatau^000000 está "
+dialog "marcado no minimapa."
+dialog "Verifique o seu minimapa."
+dialog "Você precisa de mais alguma coisa?"
+wait
+menu "[   Funcionária Kafra   ]:[   Vendedor de armas    ]:[   Vendedor de Armaduras   ]:[   Vendedor de ferramentas    ]:[   Dono do restaurante    ]:[   Vulcão Krakatau  ]:[   Marinheiro de Alberta  ]:Apagar todos os pontos marcados do minimapa.:Cancelar:"
+dialog "[Guia de Dewata]"
+dialog "^00BFFFMarinheiro de Alberta^000000 está "
+dialog "marcado no minimapa."
+dialog "Verifique o seu minimapa."
+dialog "Você precisa de mais alguma coisa?"
+wait
+menu "[   Funcionária Kafra   ]:[   Vendedor de armas    ]:[   Vendedor de Armaduras   ]:[   Vendedor de ferramentas    ]:[   Dono do restaurante    ]:[   Vulcão Krakatau  ]:[   Marinheiro de Alberta  ]:Apagar todos os pontos marcados do minimapa.:Cancelar:"
+dialog "[Guia de Dewata]"
+dialog "Todas as marcações selecionadas serão apagadas."
+dialog "Você precisa de mais alguma coisa?"
+wait
+menu "[   Funcionária Kafra   ]:[   Vendedor de armas    ]:[   Vendedor de Armaduras   ]:[   Vendedor de ferramentas    ]:[   Dono do restaurante    ]:[   Vulcão Krakatau  ]:[   Marinheiro de Alberta  ]:Apagar todos os pontos marcados do minimapa.:Cancelar:"
+dialog "[Guia de Dewata]"
+dialog "Aproveite a sua viagem!!"
+close
+-------------- SESSION ENDED --------------
