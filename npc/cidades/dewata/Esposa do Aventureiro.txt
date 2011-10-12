@@ -1,0 +1,39 @@
+dewata,139,114,3	script	Esposa do Aventureiro	-1,{
+
+	mes "[Esposa do Aventureiro]";
+	mes "Onde está o meu velho marido";
+	mes "de novo?";
+	mes "Você...";
+	mes "Viu meu marido por aqui?";
+switch(select("Acho que o vi ali...:Não, não vi...")){
+
+case 1:
+	mes "[Esposa do Aventureiro]";
+	mes "Ele fugiu quando";
+	mes "eu estava procurando por ele.";
+	mes "Ele deve estar em algum lugar,";
+	mes "enganado";
+	mes "algum viajante, agora.";
+	next;
+	mes "[Esposa do Aventureiro]";
+	mes "Peço desculpas";
+	mes "em nome do meu marido.";
+	mes "Por favor, não acredite em ";
+	mes "história como aquela";
+	mes "que ele fiz ter encontrado um";
+	mes "^FF0000macaco cruel^000000 ou";
+	mes "lutar com a ^FF0000siba^000000";
+	mes "Ele viveu aqui";
+	mes "a vida toda.";
+	mes "Porém, ele sempre encontra";
+	mes "viajantes";
+	mes "e os engana com suas histórias.";
+close;
+
+case 2:
+	mes "[Esposa do Aventureiro]";
+	mes "Por favor me avise";
+	mes "Se o vir em algum lugar";
+	cloce;
+}
+}
