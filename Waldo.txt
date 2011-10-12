@@ -1,0 +1,18 @@
+Nome: Waldo
+Posição: 97,207,5
+Sprite: 803
+
+[Waldo]
+{Oh... Pocaria... Escolhi o guia}
+{turístico errado...}
+(next)
+emotion 53
+[Waldo]
+{Isso é tão chato... Quem é aquela}
+{pessoa? Por que prolongar isso?}
+(next)
+emotion 54
+[Waldo]
+{Com certeza... Preciso ter mais}
+{sorte com pacotes de compra...}
+(close)
