@@ -1,4 +1,4 @@
-dewata,0,0,0	script	Rustam	-1,{
+dewata,0,0,0	script	Rustam	85,{
 
 	mes "[Rustam]";
 	mes "Oh... Oh... Meu Deus... Que delícia...";

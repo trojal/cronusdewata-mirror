@@ -1,4 +1,4 @@
-dewata,192,145,4	script	Sipo	-1,{
+dewata,192,145,4	script	Sipo	538,{
 
 	mes "[Sipo]"
 	mes "Sarr não vai me encontrar aqui, certo?"
