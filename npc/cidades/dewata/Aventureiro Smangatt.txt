@@ -1,4 +1,4 @@
-dewata,165,103,4	script	Aventureiro Semangatt	-1,{
+dewata,165,103,4	script	Aventureiro Semangatt	534,{
 
 	mes "Aventureiro Semangat";
 	mes "Também viajei pelo mundo";
