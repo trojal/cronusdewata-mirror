@@ -1,0 +1,18 @@
+Nome: Nasolo
+Posição: 159,81,5
+Sprite: 881
+
+[Nasolo]
+{Uau, oceano puro, praia limpa...}
+{Seria bacana se minha namorada}
+{estivesse aqui...}
+(next)
+emotion 28
+[Nasolo]
+{Mas ela não está...}
+(next)
+emotion 54
+[Nasolo]
+{Quando será que minha princesa}
+{virá?}
+(close)
