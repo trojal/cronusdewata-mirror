@@ -1,9 +1,9 @@
-dewata,139,114,3	script	Esposa do Aventureiro	-1,{
+dewata,139,114,3	script	Esposa do Aventureiro	535,{
 
 	mes "[Esposa do Aventureiro]";
 	mes "Onde está o meu velho marido";
-	mes "de novo?";
-	mes "Você...";
+	mes "de novo?" ;
+	mes "Você... ";
 	mes "Viu meu marido por aqui?";
 switch(select("Acho que o vi ali...:Não, não vi...")){
 

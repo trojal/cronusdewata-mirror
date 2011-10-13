@@ -1,4 +1,4 @@
-dewata,179,204,3	script	Jovenzinha	-1,{
+dewata,179,204,3	script	Jovenzinha	536,{
 
 	mes "[Jovenzinha]";
 	mes "Quando você estiver fora da cidade";
