@@ -1,0 +1,38 @@
+dewara,95,203,3	script	Guia Turístico	536,{
+
+emotion 19;
+	mes "[Gwong]";
+	mes "O templo de Borobudur venera O Buda";
+	mes "da ilha Dewata do século IX";
+	next;
+emotion 19;
+	mes "[Gwong]";
+	mes "Esse templo foi feito com 6";
+	mes "plataformas quadradas, 3";
+	mes "plataformas redondas e 2672 painéis";
+	mes "simbólicos da salvação, além de 504";
+	mes "estátuas de Budas.";
+	next;
+emotion 19;
+	mes "[Gwong]";
+	mes "O alojamento do meio está";
+	mes "localizado no centro da plataforma";
+	mes "superior, cercado por 73 estátuas";
+	mes "de Budas.";
+	next;
+emotion 19;
+	mes "[Gwong]";
+	mes "E o templo de Borobudur ainda é";
+	mes "famoso e procurado para";
+	mes "peregrinação por muitos monges que";
+	mes "veneram o Buda. Ele tem grande";
+	mes "parte nos negócios de propaganda de";
+	mes "turismo da ilha Dewata.";
+	next;
+	mes "[Gwong]";
+	mes "Isso é tudo sobre o templo de";
+	mes "Borobudur, mas alguém ainda tem";
+	mes "perguntas? Ou podemos prosseguir";
+	mes "para o próximo ponto?";
+close;
+}

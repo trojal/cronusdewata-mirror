@@ -1,0 +1,17 @@
+dewata,97,207,5	script	Waldo	803,{
+
+	mes "[Waldo]";
+	mes "Oh... Pocaria... Escolhi o guia";
+	mes "turístico errado...";
+	next;
+	emotion 53;
+	mes "[Waldo]";
+	mes "Isso é tão chato... Quem é aquela";
+	mes "pessoa? Por que prolongar isso?";
+	next;
+	emotion 54;
+	mes "[Waldo]";
+	mes "Com certeza... Preciso ter mais";
+	mes "sorte com pacotes de compra...";
+	close;
+}

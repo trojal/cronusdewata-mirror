@@ -1,0 +1,7 @@
+dewata,109,262,5	script	Memo	-1,{
+
+	mes "[Memo]";
+	mes "Dewata está sempre cheio, mas hoje";
+	mes "está tranquilo.";
+	close;
+}

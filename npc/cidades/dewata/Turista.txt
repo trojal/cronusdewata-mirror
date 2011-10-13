@@ -1,0 +1,39 @@
+dewata,99,203,5	script	Turista#1	755,{
+
+	mes "[Turista]";
+	mes "Oh, isso é muito interessante. Um";
+	mes "templo venerando o Buda...";
+	next;
+	mes "[Turista]";
+	mes "Mas, eu não entendi direito essa";
+	mes "parte que você estava nos";
+	mes "contando.";
+	next;
+	mes "[Turista]
+	mes "E... Aqui... O que há de errado com";
+	mes "essa parte?";
+	close;
+}
+
+dewata,100,206,3	script Turista#2	59,{
+
+	mes "[Turista]";
+	mes "Ei... Vamos para lá... Depressa,";
+	mes "enquanto o guia está explicando.";
+	next;
+	mes "[Turista]";
+	mes "Ora, vamos... Não parece que esse";
+	mes "guia vai terminar tão cedo.";
+	close;
+}
+
+dewata,101,206,3	script Turista#3	90,{
+
+	mes "[Turista]";
+	mes "Não vamos nos perder sem o guia?";
+	next;
+	mes "[Turista]";
+	mes "Nós já nos perdemos na última";
+	mes "vez...";
+	close;
+}

@@ -1,0 +1,19 @@
+dewata,228,179,5	script	Majya	538,{
+
+	mes "[Majya]";
+	mes "Eu só estava brincando de";
+	mes "esconde-esconde com meus amigos...";
+	next;
+	emotion 20;
+	mes "[Majya]";
+	mes "Só estava parado aqui... Faz três";
+	mes "horas e eles ainda não me";
+	mes "encontraram...";
+	next;
+	mes "[Majya]";
+	mes "O que devo fazer? Sair? Não quero";
+	mes "que seja minha vez de";
+	mes "procurar...";
+	close;
+}
+

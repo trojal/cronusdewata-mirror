@@ -1,0 +1,6 @@
+dewata,78,192,3	script	Supervisor do Templo Bo	536,{
+
+	mes "[Supervisor do Templo Borobudur]";
+	mes "Hoje o tempo está tão bonito.";
+	close;
+}
