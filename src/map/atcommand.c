@@ -2429,16 +2429,18 @@ ACMD_FUNC(go)
 	if (!message || !*message || sscanf(message, "%11s", map_name) < 1 || town < 0 || town >= ARRAYLENGTH(data)) {
 		clif_displaymessage(fd, msg_txt(38)); //Número de localização ou nome inválidos.
 		clif_displaymessage(fd, msg_txt(82)); //Por Favor, use um desses nomes ou números:
-		clif_displaymessage(fd, "\t0=Prontera\t\t\t\t\t1=Morroc\t\t\t2=Geffen");
-		clif_displaymessage(fd, "\t3=Payon\t\t\t\t\t\t4=Alberta\t\t\t5=Izlude");
-		clif_displaymessage(fd, "\t6=Al De Baran\t\t\t\t7=Lutie\t\t\t8=Comodo");
-		clif_displaymessage(fd, "\t9=Juno\t\t\t\t\t\t10=Amatsu\t\t\t11=Kunlun");
-		clif_displaymessage(fd, "\t12=Umbala\t\t\t\t\t13=Niflheim\t\t14=Louyang");
-		clif_displaymessage(fd, "\t15=Campo de Aprendizes\t\t16=Prisão\t17=Jawaii");
-		clif_displaymessage(fd, "\t18=Ayothaya\t\t\t\t\t19=Einbroch\t\t20=Lighthalzen");
-		clif_displaymessage(fd, "\t21=Einbech\t\t\t\t\t22=Hugel\t\t\t23=Rachel");
-		clif_displaymessage(fd, "\t24=Veins\t\t\t\t\t\t25=Moscovia\t\t26=Brasilis");
-		clif_displaymessage(fd, "\t27=Manuka\t\t\t\t\t\t28=Esplendor\t29=Dewata");
+		clif_displaymessage(fd, msg_txt(38)); //Número de localização ou nome inválidos.
+		clif_displaymessage(fd, msg_txt(82)); //Por Favor, use um desses nomes ou números:
+		clif_displaymessage(fd, "   0=Prontera                      1=Morroc       2=Geffen");
+		clif_displaymessage(fd, "   3=Payon                          4=Alberta      5=Izlude");
+		clif_displaymessage(fd, "   6=Al De Baran                  7=Lutie         8=Comodo");
+		clif_displaymessage(fd, "   9=Juno                           10=Amatsu    11=Kunlun");
+		clif_displaymessage(fd, " 12=Umbala                       13=Niflheim   14=Louyang");
+		clif_displaymessage(fd, " 15=Campo de Aprendizes  16=Prisão      17=Jawaii");
+		clif_displaymessage(fd, " 18=Ayothaya                    19=Einbroch  20=Lighthalzen");
+		clif_displaymessage(fd, " 21=Einbech                      22=Hugel       23=Rachel");
+		clif_displaymessage(fd, " 24=Veins                          25=Moscovia  26=Brasilis");
+		clif_displaymessage(fd, " 27=Manuka                       28=Esplendor   29=Dewata");
 		return -1;
 	}
 
