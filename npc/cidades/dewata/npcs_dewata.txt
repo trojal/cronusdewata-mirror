@@ -190,7 +190,7 @@ dewata,146,109,4	script	Sr.Dwi Oblo	886,{
 			next;
 			mes "[Sr. Dwi Oblo]";
 			mes "Na ilha de Dewatam chamamos arroz";
-			mes "de Nasi, macarr„o de Mie, p„o de
+			mes "de Nasi, macarr„o de Mie, p„o de";
 			mes "Roti, frango de Ayam, peixe de Ikan";
 			mes "e milho de Jagung";
 			close;
@@ -483,14 +483,14 @@ OnTouch:
 	close;
 }
 
-dewara,95,203,3	script	Guia TurÌstico	536,{
+dewata,95,203,3	script	Guia TurÌstico	536,{
 
-	emotion 19;
+	emotion e_swt2;
 	mes "[Gwong]";
 	mes "O templo de Borobudur venera O Buda";
 	mes "da ilha Dewata do sÈculo IX";
 	next;
-	emotion 19;
+	emotion e_swt2;
 	mes "[Gwong]";
 	mes "Esse templo foi feito com 6";
 	mes "plataformas quadradas, 3";
@@ -498,14 +498,14 @@ dewara,95,203,3	script	Guia TurÌstico	536,{
 	mes "simbÛlicos da salvaÁ„o, alÈm de 504";
 	mes "est·tuas de Budas.";
 	next;
-	emotion 19;
+	emotion e_swt2;
 	mes "[Gwong]";
 	mes "O alojamento do meio est·";
 	mes "localizado no centro da plataforma";
 	mes "superior, cercado por 73 est·tuas";
 	mes "de Budas.";
 	next;
-	emotion 19;
+	emotion e_swt2;
 	mes "[Gwong]";
 	mes "E o templo de Borobudur ainda È";
 	mes "famoso e procurado para";
@@ -519,25 +519,6 @@ dewara,95,203,3	script	Guia TurÌstico	536,{
 	mes "Borobudur, mas alguÈm ainda tem";
 	mes "perguntas? Ou podemos prosseguir";
 	mes "para o prÛximo ponto?";
-	close;
-}
-
-dewata,181,88,3	script	Jovem em Dewata	536,{
-
-	mes "[Jovem em Dewata]";
-	mes "A praia de Dewata n„o È";
-	mes "muito bonita?";
-	mes "Aquelas crianÁas brincando";
-	mes "pela praia, sempre";
-	mes "me lembram da minha juventude.";
-	next;
-	mes "[Jovem em Dewata]";
-	mes "De noite, È Ûtimo";
-	mes "ter fogos de artifÌcio na praia.";
-	mes "Com a brisa do oceano, o barulho";
-	mes "das ondas,";
-	mes "e luzes dos fogos de artifÌcio,";
-	mes "ser· uma noite maravilhosa!";
 	close;
 }
 
@@ -614,7 +595,7 @@ dewata,109,262,5	script	Memo	534,{
 
 dewata,67,186,1	script	Puwong	834,{
 
-	mes "[Puwong]"
+	mes "[Puwong]";
 	mes "Sou o monge que venera o grande";
 	mes "Buda.";
 	next;
@@ -645,7 +626,7 @@ dewata,65,188,1	script	Touwang	834,{
 	close;
 }
 
-dewata,63,190,1	script	Rinung	834.{
+dewata,63,190,1	script	Rinung	834,{
 
 	mes "[Rinung]";
 	mes "VocÍ È um turista? FaÁa um pedido";
@@ -659,7 +640,7 @@ dewata,63,190,1	script	Rinung	834.{
 
 dewata,62,192,1	script	Baawang	834,{
 
-	mes "[Baawang]
+	mes "[Baawang]";
 	mes "Nosso grande Buda È o rei das almas";
 	mes "e o lÌder de todos os Deuses.";
 	next;
@@ -743,7 +724,7 @@ dewata,159,81,5	script	Nasolo	881,{
 	close;
 }
 
-dewata,0,0,0	script	Rustam	85,{
+dewata,147,107,4	script	Rustam	85,{
 
 	mes "[Rustam]";
 	mes "Oh... Oh... Meu Deus... Que delÌcia...";
@@ -756,7 +737,7 @@ dewata,0,0,0	script	Rustam	85,{
 	close;
 }
 
-dewara,227,129,5	script	Sarr	538,{
+dewata,227,129,5	script	Sarr	538,{
 
 	mes "[Sarr]";
 	mes "Esconde-esconde! Vou encontrar";
@@ -782,14 +763,14 @@ dewara,227,129,5	script	Sarr	538,{
 
 dewata,192,145,4	script	Sipo	538,{
 
-	mes "[Sipo]"
-	mes "Sarr n„o vai me encontrar aqui, certo?"
+	mes "[Sipo]";
+	mes "Sarr n„o vai me encontrar aqui, certo?";
 	next;
-	mes "[Sarr]"
-	mes "Encontrei Siyak!! Saiam, saiam!!!"
+	mes "[Sarr]";
+	mes "Encontrei Siyak!! Saiam, saiam!!!";
 	next;
-	mes "[Sipo]"
-	mes "Hehe. Agora È a vez de Siyak. Vou continuar me escondendo aqui."
+	mes "[Sipo]";
+	mes "Hehe. Agora È a vez de Siyak. Vou continuar me escondendo aqui.";
 	close;
 }
 
@@ -800,7 +781,7 @@ dewata,245,244,5	script	Sr. Dingwan	536,{
 	mes "Argg~ Isso est· me aborrecendo, de";
 	mes "verdade!";
 	next;
-	mes "[Sr. Dingwan]
+	mes "[Sr. Dingwan]";
 	mes "Como mais e mais casais chegam a";
 	mes "nossa pens„o, todos os dias?";
 	next;
@@ -808,7 +789,7 @@ dewata,245,244,5	script	Sr. Dingwan	536,{
 	mes "aquelas coisas melosas? O que È";
 	mes "aquilo?";
 	next;
-	mes "[Sr. Dingwan]
+	mes "[Sr. Dingwan]";
 	mes "Qual È, tenha um pouco de respeito";
 	mes "por quem trabalha aqui...";
 	close;
@@ -832,13 +813,13 @@ dewata,99,203,5	script	Turista#1	755,{
 	mes "parte que vocÍ estava nos";
 	mes "contando.";
 	next;
-	mes "[Turista]
+	mes "[Turista]";
 	mes "E... Aqui... O que h· de errado com";
 	mes "essa parte?";
 	close;
 }
 
-dewata,100,206,3	script Turista#2	59,{
+dewata,100,206,3	script	Turista#2	59,{
 
 	mes "[Turista]";
 	mes "Ei... Vamos para l·... Depressa,";
@@ -850,7 +831,7 @@ dewata,100,206,3	script Turista#2	59,{
 	close;
 }
 
-dewata,101,206,3	script Turista#3	90,{
+dewata,101,206,3	script	Turista#3	90,{
 
 	mes "[Turista]";
 	mes "N„o vamos nos perder sem o guia?";
@@ -864,11 +845,11 @@ dewata,101,206,3	script Turista#3	90,{
 dewata,279,100,3	script	Ukki	703,{
 
 	emotion e_wah;
-	mes "[Ukki]"
+	mes "[Ukki]";
 	mes "Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·~";
 	next;
 	mes "["+strcharinfo(0)+"]";
-	mes "Ei..."
+	mes "Ei...";
 	next;
 	mes "[Ukki]";
 	mes "Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·Bu·~";
@@ -881,12 +862,12 @@ dewata,97,207,5	script	Waldo	803,{
 	mes "Oh... Pocaria... Escolhi o guia";
 	mes "turÌstico errado...";
 	next;
-	emotion 53;
+	emotion e_turn;
 	mes "[Waldo]";
 	mes "Isso È t„o chato... Quem È aquela";
 	mes "pessoa? Por que prolongar isso?";
 	next;
-	emotion 54;
+	emotion e_sigh;
 	mes "[Waldo]";
 	mes "Com certeza... Preciso ter mais";
 	mes "sorte com pacotes de compra...";
