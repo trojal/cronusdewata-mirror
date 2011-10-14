@@ -3,19 +3,18 @@
 //===== Por: ================================================= 
 //= Mooka
 //===== Versão: ============================================== 
-//= 1.0
+//= 1.1
 //===== Compatível com: ====================================== 
 //= Emulador [3316+]; Cliente [EP 13.3]
 //===== Descrição: =========================================== 
 //= [Extraído do bRO in-game]
 //===== Comentários adicionais: ============================== 
-//= 1.0 
-// * Criação dos NPCs [Mooka, Pixel]
-// * Coleta de textos e informações [Pedro xD, Pixel]
+//= 1.0 Criação [Mooka, blastin, Pedro xD, Janderson]
+//= 1.1 Otimização e revisão [Mooka]
 //============================================================ 
 
 
-alberta,240,46,5	script	Marinheiro de Dewata	-1,{
+alberta,240,46,5	script	Marinheiro de Dewata	536,{
 
 	mes "[Marinheiro de Dewata]";
 	mes "Quer visitar a ilha Dewata";
@@ -456,7 +455,7 @@ dewata,127,248,3	script	Criança Persistente	539,{
 	close;
 }
 
-dewata,139,114,3	script	Esposa do Aventureiro	-1,{
+dewata,139,114,3	script	Esposa do Aventureiro	535,{
 
 	mes "[Esposa do Aventureiro]";
 	mes "Onde está o meu velho marido";
@@ -496,7 +495,7 @@ dewata,139,114,3	script	Esposa do Aventureiro	-1,{
 	}
 }
 
-dewata,138,114,6	script	Espoda do Aventureiro	-1,{
+dewata,138,114,6	script	Esposa do Aventureiro	-1,{
 
 	mes "[Esposa do Aventureiro]";
 	mes "Onde está o meu velho marido";
@@ -707,7 +706,7 @@ dewata,117,156,3	script	Jovem Sonhador	538,{
 	close;
 }
 
-dewata,178,204,4	script	Jovenzinha	-1,{
+dewata,178,204,4	script	Jovenzinha	534,{
 
 	mes "[Jovenzinha]";
 	mes "Quando você estiver fora da cidade";
@@ -749,7 +748,7 @@ dewata,228,179,5	script	Majya	538,{
 	close;
 }
 
-dewata,150,150,5	script	Marinheiro de Alberta	-1,{
+dewata,150,150,5	script	Marinheiro de Alberta	536,{
 
 	mes "[Marinheiro de Alberta]";
 	mes "Quer voltar a ^8B4513Alberta^000000??";
@@ -768,7 +767,7 @@ dewata,150,150,5	script	Marinheiro de Alberta	-1,{
 	close;
 }
 
-dewata,109,262,5	script	Memo	-1,{
+dewata,109,262,5	script	Memo	534,{
 
 	mes "[Memo]";
 	mes "Dewata está sempre cheio, mas hoje";
@@ -918,28 +917,6 @@ dewata,0,0,0	script	Rustam	85,{
 	close;
 }
 
-dewata,226,129,4	script	Sarr	-1,{
-
-	mes "[Sarr]";
-	mes "Esconde-esconde! Vou encontrar você!";
-	next;
-	mes "[Sarr]";
-	mes "Um";
-	next;
-	mes "[Sarr]";
-	mes "Um, dois";
-	next;
-	mes "[Sarr]";
-	mes "Um, dois, três";
-	next;
-	mes "[Sarr]";
-	mes "... ... ... ...";
-	next;
-	mes "[Sarr]";
-	mes "Noventa e nove, cem!!! Agora, lá vou eu";
-	close;
-}
-
 dewara,227,129,5	script	Sarr	538,{
 
 	mes "[Sarr]";
@@ -977,7 +954,7 @@ dewata,192,145,4	script	Sipo	538,{
 	close;
 }
 
-dewata,245,244,5	script	Sr. Dingwan	-1,{
+dewata,245,244,5	script	Sr. Dingwan	536,{
 
 	emotion 6;
 	mes "[Sr. Dingwan]";
