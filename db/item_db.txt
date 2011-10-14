@@ -13,3 +13,7 @@
 // Structure of Database:
 // ID,AegisName,Name,Type,Buy,Sell,Weight,ATK,DEF,Range,Slots,Job,Upper,Gender,Loc,wLV,eLV,Refineable,View,{ Script },{ OnEquip_Script },{ OnUnequip_Script }
 //===========================================================================================================================================================
+
+
+11532,Nasi_Goreng,Nasi Goreng,0,14,7,2,,,,,0xFFFFFFFF,15,2,,,,,,{ itemheal 30,0; },{},{}
+11533,Saté,Saté,0,14,7,2,,,,,0xFFFFFFFF,15,2,,,,,,{ itemheal 40,0; },{},{}

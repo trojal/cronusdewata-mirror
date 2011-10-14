@@ -200,7 +200,6 @@ dewata,146,109,4	script	Sr.Dwi Oblo	886,{
 			mes "[Sr. Dwi Oblo]";
 			mes "Nós temos 2 'Nasi Goreng' e 'Saté'";
 			mes "no Cardápio, qual você quer?";
-
 			set @choice, select("Nasi Goreng:Saté");
 			next;
 			if(@choice)
@@ -224,7 +223,7 @@ dewata,146,109,4	script	Sr.Dwi Oblo	886,{
 				mes "[Sr. Dwi Oblo]";
 				mes "Aqui está o seu "+(@choice? "Nasi Goreng" : "Saté")+", você";
 				mes "não vai se arrepender.";
-				getitem (@choice ? "Nasi Goreng" : "Saté"), 1;
+				getitem (@choice ? 11532 : 11533), 1; // Saté, Nasi Goreng
 			}
 			else
 			{
@@ -681,7 +680,7 @@ dewata,62,192,1	script	Baawang	834,{
 dewata,204,230,3	script	Mulher de dieta	536,{
 
 	mes "[Mulher de dieta]";
-	if(!countitem("Saté"))
+	if(!countitem(11533)) // Saté
 	{
 		mes "Ah, que fome!";
 		mes "Eu deveria estar de regime.";
@@ -705,7 +704,7 @@ dewata,204,230,3	script	Mulher de dieta	536,{
 		mes "Estava com tanta fome!!!";
 		mes "Esse ^006400Saté^000000";
 		mes "está muito gostoso!";
-		delitem "Saté", 1;
+		delitem 11533, 1; //Saté
 		next;
 		mes "[Mulher de dieta]";
 		mes "Ah... Pensando bem,";
@@ -713,7 +712,7 @@ dewata,204,230,3	script	Mulher de dieta	536,{
 		mes "Eu deveria estar de regime ";
 		mes "Desculpe, vou lhe devolver";
 		mes "o ^006400Saté^000000";
-		getitem "Saté", 1;
+		getitem 11533, 1; // Saté
 	}
 	else
 	{
