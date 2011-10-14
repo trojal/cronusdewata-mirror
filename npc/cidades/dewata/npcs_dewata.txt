@@ -761,7 +761,7 @@ dewata,227,129,5	script	Sarr	538,{
 	close;
 }
 
-dewata,192,145,4	script	Sipo	538,{
+dewata,193,145,4	script	Sipo	538,{
 
 	mes "[Sipo]";
 	mes "Sarr não vai me encontrar aqui, certo?";
