@@ -35,15 +35,14 @@ alberta,240,46,5	script	Marinheiro de Dewata	536,{
 		mes "tenha uma boa viagem.";
 		close2;
 		warp "dewata",232,53;
-		close;
 	}
 	else
 	{
 		next;
 		mes "Avise-me";
 		mes "quando quiser viajar";
-		close;
 	}
+	close;
 }
 
 dewata,229,49,5	script	Marinheiro de Alberta	536,{
@@ -60,7 +59,7 @@ dewata,229,49,5	script	Marinheiro de Alberta	536,{
 		mes "passeio";
 		mes "na ilha ^8B4513Dewata^000000!";
 		mes "Aguardamos seu retorno !";
-		warp "alberta", 0, 0;
+		warp "alberta", 235, 44;
 	}
 	else
 	{
@@ -118,7 +117,6 @@ dewata,250,85,5	script	Pai	97,{
 	mes "Arrgg.. Não posso ir a lugar algum";
 	mes "como ela... Quantas vezes isso já aconteceu?";
 	close;
-
 }
 
 dewata,154,107,5	script	Turista de passagem	86,{
@@ -244,123 +242,62 @@ dewata,146,109,4	script	Sr.Dwi Oblo	886,{
 
 dewata,233,263,0	script	Casal adoravel#1	75,{
 
-	emotion 30;
+	emotion e_kis;
 	mes "[Marido]";
 	mes "Você é a coisa mais linda do mundo,";
 	mes "querida~ <3";
 	next;
-	
-	donpcevent "Casal adoravel#2::OnEmoteA";/*donpcevent  * event*/
-
+	emotion e_kis, 0, "Casal adoravel#";
 	mes "[Esposa]";
 	mes "Mesmo? Sou tão linda assim? Eu amo";
 	mes "você, querido~ <3";
 	next;
-	
-	emotion 18;
-	
-	donpcevent "Casal adoravel#2::OnEmoteB";/*donpcevent *event*/
-	
+	emotion e_heh, 0, "Casal adoravel#";
 	mes "[Casal adorável]";
-	mes "Hahahahahahahahahahahahahahahahahah";
-	mes "ahahahahahahahahahahahahahahahahaha";
-	mes "ha";
-	mes "Hohohohohohohohohohohohohohohohohoh";
-	mes "ho";
-	next;
-	
-	mes "Credo,odeio isso.Vamos embora";
+	mes "Hahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahaha";
+	mes "Hohohohohohohohohohohohohohohohohohohohohohohohohohohohohohohohohohohoho";
+	next;	
+	mes "Credo, odeio isso. Vamos embora.";
 	close;
-
-	OnEmoteA:
-		emotion 30;
-		end;
-		
 }
 
 dewata,234,263,0	script	Casal adoravel#2	75,{
 
-	emotion 1;
+	emotion e_what;
 	mes "[Esposa]";
 	mes "Querido ~ Você sabe que a flor é";
 	mes "essa~?";
 	next;
-	
 	mes "[Marido]";
 	mes "Humm? Eu não sei. Mas, é muito";
 	mes "linda.";
 	next;
-	
-	emotion 1;
+	emotion e_what;
 	mes "[Esposa]";
 	mes "Querido, sou bonita? Ou, a flor é";
 	mes "mais?";
 	next;
-	
-	donpcevent "Casal adoravel#1::OnEmoteA";//*Marido: emotion 30* donevent event*/
-	
+	emotion e_kis, 0, "Casal adoravel#2";
 	mes "[Marido]";
 	mes "Não importa a beleza da flor, você";
 	mes "sempre será mais bonita~<3";
 	next;
-	
-	emotion 31;
-	mes  "[Esposa]";
+	emotion e_kis2;
+	mes "[Esposa]";
 	mes "Mesmo? Sou tão linda assim? Eu amo";
 	mes "você, querido ~ <3";
 	next;
-	
-	emotion 18;
-	
-	//Esposa: emotion 18 // HELP ??
-	
+	emotion e_heh;
+	emotion e_heh, 0, "Casal adoravel#2";
 	mes "[Casal adorável]";
-	mes "Hahahahahahahahahahahahahahahahahah";
-	mes "ahahahahahahahahahahahahahahahahaha";
-	mes "ha";
-	mes "Hohohohohohohohohohohohohohohohohoh";
-	mes "ohohohohohohohohohohohohohohohohoho";
-	mes "ho";
-	
+	mes "Hahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahaha";
+	mes "Hohohohohohohohohohohohohohohohohohohohohohohohohohohohohohohohohohohoho";
 	next;
 	mes "Credo, odeio isso. Vamos embora.";
 	close;
-	
-	OnEmoteA:
-		emotion 31;
-		end;
-		
-	OnEmoteB:
-		emotion 18;
-		end;
-	
 }
 
-dewata,245,244,5	script	Sr Dingwan	75,{
-
-	emotion 6;
-	mes "[Sr. Dingwan]";
-	mes "Argg~ Isso está me aborrecendo,de";
-	mes "verdade !";
-	next;
-	
-	mes "[Sr. Dingwan]";
-	mes "Como mais e mais casais chegam a";
-	mes "nossa pensão, todos os dias?";
-	next;
-	
-	mes "E por que eles têm de falar todas";
-	mes "aquelas coisas melosas? O que é";
-	mes "aquilo?";
-	next;
-	
-	mes "[Sr. Dingwan]";
-	mes "Qual é, tenha um pouco de respeito";
-	mes "por quem trabalha aqui...";
-	close;
-}
-
-dewata,211,272,5	script	Sr. Jiawang	4,4,75,{	
+dewata,211,272,5	script	Sr. Jiawang	75,4,4,{	
 
 	mes "[Sr. Jiawang]";
 	mes "Ultimamente , temos muitos casais em";
@@ -368,20 +305,17 @@ dewata,211,272,5	script	Sr. Jiawang	4,4,75,{
 	mes "Deve ser pelas belas paisagens,";
 	mes "certo?";
 	next;
-	
 	mes "[Sr. Jiawang]";
-	mes "Sou feliz com o meu négocio.Espero";
+	mes "Sou feliz com o meu négocio. Espero";
 	mes "que todos os casais venham aqui";
 	mes "para a sua lua-de-mel";
 	next;
-	
-	mes "Sr. Jiawang]";
+	mes "[Sr. Jiawang]";
 	mes "Ha! Você deve trazer a sua pessoa";
 	mes "amada para a lua-de-mel em Dewata";
 	mes "Vou lhe dar um bom preço";
 	close;
 
-	
 	OnTouch:
 		mes "[Sr. Jiawang]";
 		mes "Não pertube nossos hóspedes em";
@@ -671,25 +605,6 @@ dewata,228,179,5	script	Majya	538,{
 	close;
 }
 
-dewata,150,150,5	script	Marinheiro de Alberta	536,{
-
-	mes "[Marinheiro de Alberta]";
-	mes "Quer voltar a ^8B4513Alberta^000000??";
-	next;
-	if(select("Sim:Não") == 1)
-	{
-		mes "[Marinheiro de Alberta]";
-		mes "Espero que tenha gostado do passeio";
-		mes "na ilha ^8B4513Dewata^000000!";
-		mes "Aguardamos seu retorno!";
-		warp "alberta",150,150;
-	}
-	else
-	{
-	}
-	close;
-}
-
 dewata,109,262,5	script	Memo	534,{
 
 	mes "[Memo]";
@@ -947,7 +862,7 @@ dewata,101,206,3	script Turista#3	90,{
 
 dewata,279,100,3	script	Ukki	703,{
 
-	//emotion "/gt2";
+	emotion e_wah;
 	mes "[Ukki]"
 	mes "BuáBuáBuáBuáBuáBuáBuáBuáBuáBuáBuáBuáBuáBuáBuáBuáBuáBuá~";
 	next;

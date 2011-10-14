@@ -1,7 +1,0 @@
-Nome: Supervisor do Templo Bo
-Posição: 78,192,3
-Sprite: 536
-
-[Supervisor do Templo Borobudur]
-{Hoje o tempo está tão bonito.}
-(close)
