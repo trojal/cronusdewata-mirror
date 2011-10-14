@@ -1,3 +1,5 @@
+//Faltando coordenadas, posição e sprite  By: Janderson
+
 dewata,x,y,p	script	Jovem dos cocos	sprite,{
 
 	mes "[Jovem amante das frutas]";
