@@ -1,0 +1,98 @@
+dewata,x,y,p	script	name	sprite,{
+
+	mes "[Jovem amante das frutas]";
+	mes "O que há de errado com o seu rosto? Você não deve fazer a menor ideia... Não é?";
+	next;
+	mes "[Jovem amante das frutas]";
+	mes "Deixe-me compartilhar um pouco de informação útil com o seu cérebro vazio.";
+	next;
+	mes "[Jovem amante das frutas]";
+	mes "Posso ter esse visual, mas não há ninguém que saiba mais que eu sobre o ^777700Fruto da Palmeira^000000. Isso mesmo! O que você quer saber?";
+	next;
+	switch(select("Sobre o epicarpo...:Sobre o endocarpo...:Sobre a semente da fruta...:Não preciso de nada.")) 
+	{
+
+	case 1:
+		mes "[Jovem amante das frutas]";
+		mes "Então, você quer saber sobre o epicarpo do fruto da Palmeira? Deixe-me explicar.";
+		next;
+		mes "[Jovem amante das frutas]";
+		mes "Normalmente, o epicarpo do fruto da Palmeira é usado para fazer óleo. Óleo de Palma é um ingrediente útil para muitos pratos.";
+		next;
+		mes "[Jovem amante das frutas]";
+		mes "Se você quer saber como usar o Óleo de Palma, vá encontrar Memo no lado norte da ilha Dewata. Ele faz uma bebida tradicional com Óleo de Palma, todos os dias.";
+		next;
+		mes "[Jovem amante das frutas]";
+		mes "De qualquer modo, podemos chamar o óleo oriundo do fruto de Palmeira de óleo de Palma ou óleo de Coco, que é famoso por aqui, por ser um óleo de muita qualidade.";
+		next;
+		mes "[Jovem amante das frutas]";
+		mes "Resíduos descartados da produção de óleo estão sendo secos e usados como combustível para fazer fogo ou na cozinha.";
+		next;
+		mes "[Jovem amante das frutas]";
+		mes "Ele tem uma boa potência de fogo com um cheiro bom, melhor que isso impossível.";
+		next;
+		mes "[Jovem amante das frutas]";
+		mes "Certo!! Essas são todas as informações sobre o endocarpo, demora demais explicar todos aqueles efeitos úteis do epicarpo do fruto de Palmeira.";
+		next;
+		mes "[Jovem amante das frutas]";
+		mes "Isso não é tudo que eu sei. Não me entenda mal!";
+		close;
+
+	case 2:
+		mes "[Jovem amante das frutas]"
+		mes "Então, você quer saber sobre o endocarpo do fruto de Palmeira?  Deixe-me explicar.";
+		next;
+		mes "[Jovem amante das frutas]"
+		mes "O fruto da Palmeira tem 2 camadas de casca. A de fora é muito dura e a de dentro, que você perguntou, é macia...";
+		next;
+		mes "[Jovem amante das frutas]"
+		mes "Humm... Sim! O Endocarpo do fruto de Palmeira é um pouco mais duro que a casca de uma noz, deve ser a água que ele tem dentro.";
+		next;
+		mes "[Jovem amante das frutas]"
+		mes "Dentro do endocarpo, há cerca de 30cc de água, que é muito útil para matar a sede das pessoas, já que a ilha Dewata tem um clima muito quente.";
+		next;
+		mes "[Jovem amante das frutas]";
+		mes "E nós não jogamos o endocarpo fora depois de bebermos a água!";
+		next;
+		mes "[Jovem amante das frutas]";
+		mes "Nós também podemos fazer uma garrafa de água de qualidade com ele! Como eu disse, ele tem um casco duro o bastante para fazer uma garrafa de água resistente.";
+		next;
+		mes "[Jovem amante das frutas]";
+		mes "Ele também é ótimo para fazer carvão. O carvão feito de fruto de Palmeira é famoso por sua longa duração e pela qualidade de seu fogo.";
+		next;
+		mes "[Jovem amante das frutas]";
+		mes "As pessoas adoram cozinhar frutos do mar e frango com o carvão feito do fruto da Palmeira.";
+		next;
+		mes "[Jovem amante das frutas]";
+		mes "Com o cheiro extra de Palmeira, não há como errar com ele.";
+		next;
+		mes "[Jovem amante das frutas]";
+		mes "Certo!! Essas são todas as informações sobre o endocarpo, demora demais explicar todos aqueles efeitos úteis do endocarpo do fruto de Palmeira.";
+		next;
+		mes "[Jovem amante das frutas]";
+		mes "Isso não é tudo que eu sei. Não me entenda mal!";
+		close;
+
+	case 3:
+		mes "[Jovem amante das frutas]";
+		mes "Então, você quer saber sobre a semente macia que há dentro?  Deixe-me explicar ";
+		next;
+		mes "[Jovem amante das frutas]";
+		mes "A semente que há dentro do casco duro é usado como um digestivo natural.";
+		next;
+		mes "[Jovem amante das frutas]";
+		mes "Não há muito a dizer sobre a semente.";
+		next;
+		mes "[Jovem amante das frutas]"
+		mes "Mesmo assim, é verdade dizer que nada se perde do fruto da Palmeira.";
+		next;
+		mes "[Jovem amante das frutas]";
+		mes "Você não concorda?";
+		close;
+
+	case 4:
+		mes "[Jovem amante das frutas]";
+		mes "Arrgg! Está faltando espírito de aprendizagem em você.";
+		close;
+	}
+}
