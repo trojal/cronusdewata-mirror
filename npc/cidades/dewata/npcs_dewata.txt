@@ -664,7 +664,7 @@ dewara,95,203,3	script	Guia Turístico	536,{
 	mes "Borobudur, mas alguém ainda tem";
 	mes "perguntas? Ou podemos prosseguir";
 	mes "para o próximo ponto?";
-close;
+	close;
 }
 
 dewata,181,88,3	script	Jovem em Dewata	536,{
@@ -704,7 +704,7 @@ dewata,117,156,3	script	Jovem Sonhador	538,{
 	mes "e meus avós";
 	mes "viveriam todos felizes e unidos.";
 	mes "Você não achar?";
-close;
+	close;
 }
 
 dewata,178,204,4	script	Jovenzinha	-1,{
