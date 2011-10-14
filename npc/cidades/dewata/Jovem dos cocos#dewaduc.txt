@@ -1,4 +1,4 @@
-dewata,x,y,p	script	name	sprite,{
+dewata,x,y,p	script	Jovem dos cocos	sprite,{
 
 	mes "[Jovem amante das frutas]";
 	mes "O que há de errado com o seu rosto? Você não deve fazer a menor ideia... Não é?";
