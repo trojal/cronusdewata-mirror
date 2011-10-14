@@ -1,4 +1,4 @@
-dewata,181,88,3	script	Jovem em Dewata	-1,{
+dewata,181,88,3	script	Jovem em Dewata	536,{
 
 	mes "[Jovem em Dewata]";
 	mes "A praia de Dewata não é";

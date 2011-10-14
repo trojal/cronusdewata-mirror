@@ -1,4 +1,4 @@
-dewata,211,272,4	script	Sr. Jiawang	-1,4,4{
+dewata,211,272,4	script	Sr. Jiawang	4,4,534{
 
 	mes "[Sr. Jiawang]";
 	mes "Ultimamente, temos muitos casais em lua-de-mel, aqui.";

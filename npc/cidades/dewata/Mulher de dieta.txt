@@ -1,4 +1,4 @@
-dewata,204,230,3	script	Mulher de dieta	-1,{
+dewata,204,230,3	script	Mulher de dieta	536,{
 
 	mes "[Mulher de dieta]";
 	if(!countitem("Saté"))
