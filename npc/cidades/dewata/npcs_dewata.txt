@@ -705,6 +705,7 @@ dewata,204,230,3	script	Mulher de dieta	536,{
 		mes "Estava com tanta fome!!!";
 		mes "Esse ^006400Saté^000000";
 		mes "está muito gostoso!";
+		delitem "Saté", 1;
 		next;
 		mes "[Mulher de dieta]";
 		mes "Ah... Pensando bem,";
@@ -712,6 +713,7 @@ dewata,204,230,3	script	Mulher de dieta	536,{
 		mes "Eu deveria estar de regime ";
 		mes "Desculpe, vou lhe devolver";
 		mes "o ^006400Saté^000000";
+		getitem "Saté", 1;
 	}
 	else
 	{
