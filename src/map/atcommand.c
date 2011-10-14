@@ -2490,7 +2490,7 @@ ACMD_FUNC(go)
 		town = 15;
 	} else if (strncmp(map_name, "sec_pri", 3) == 0 ||
 	           strncmp(map_name, "prison", 3) == 0 ||
-	           strncmp(map_name, "jails", 3) == 0 ||) {
+	           strncmp(map_name, "jails", 3) == 0) {
 		town = 16;
 	} else if (strncmp(map_name, "jawaii", 3) == 0 ||
 	           strncmp(map_name, "jawai", 3) == 0) {
