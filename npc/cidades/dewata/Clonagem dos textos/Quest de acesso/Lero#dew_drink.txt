@@ -1,0 +1,21 @@
+dialog "[Lero]"
+dialog "O que aconteceu, Poby? Por que ainda não veio aqui..."
+wait
+dialog "- parece que ele está esperando -"
+dialog "- alguém. -"
+close
+-------------- SESSION ENDED --------------
+dialog "[Lero]"
+dialog "O que aconteceu, Poby? Por que ainda não veio aqui..."
+wait
+dialog "- parece que ele está esperando -"
+dialog "- alguém. -"
+close
+-------------- SESSION ENDED --------------
+dialog "[Lero]"
+dialog "O que aconteceu, Poby? Por que ainda não veio aqui..."
+wait
+dialog "- parece que ele está esperando -"
+dialog "- alguém. -"
+close
+-------------- SESSION ENDED --------------

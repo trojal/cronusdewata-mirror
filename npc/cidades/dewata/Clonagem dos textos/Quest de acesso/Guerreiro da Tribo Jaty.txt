@@ -1,0 +1,64 @@
+dialog "[Guerreiro da Tribo Jaty]"
+dialog "Venerando o poder e a coragem"
+dialog "Somos a Tribo FF0000Jaty^000000"
+close
+-------------- SESSION ENDED --------------
+dialog "[Guerreiro da Tribo Jaty]"
+dialog "Venerando o poder e a coragem"
+dialog "Somos a Tribo FF0000Jaty^000000"
+close
+-------------- SESSION ENDED --------------
+dialog "[Guerreiro da Tribo Jaty]"
+dialog "Venerando o poder e a coragem"
+dialog "Somos a Tribo FF0000Jaty^000000"
+close
+-------------- SESSION ENDED --------------
+dialog "[Guerreiro da Tribo Jaty]"
+dialog "Venerando o poder e a coragem"
+dialog "Somos a Tribo FF0000Jaty^000000"
+wait
+dialog "[Guerreiro da Tribo Jaty]"
+dialog "Pelo que posso observar,"
+dialog "parece que você quer dizer alguma coisa,"
+dialog "diga o que quer"
+wait
+menu "^0000FFFailko, Chefe Tribal^000000:"
+dialog "[Guerreiro da Tribo Jaty]"
+dialog "Eu já conheço "
+dialog "uma história alegre,"
+dialog "Sendo um representante da tribo,"
+dialog "expresso nosso agradecimento."
+wait
+dialog "[Guerreiro da Tribo Jaty]"
+dialog "Também lhe agradeço pelo ^006400Saté^000000"
+dialog "Ele, com certeza, está bom,"
+dialog "obrigado,"
+dialog "em troca disso,"
+dialog "há algo que gostaria de compartilhar"
+dialog "com você, relacionado à nossa tribo"
+wait
+dialog "[Guerreiro da Tribo Jaty]"
+dialog "Diferente dos velhos tempos quando os guerreiros da tribo"
+dialog "lutavam e se ensanguentavam,"
+dialog "hoje em dia o mundo ficou mais pacífico."
+dialog "O espaço de nossa tribo também diminuiu,"
+wait
+dialog "[Guerreiro da Tribo Jaty]"
+dialog "mas mesmo assim continuaremos mantendo"
+dialog "a coragem de nossa tribo"
+dialog "e o orgulho "
+dialog "que conseguimos com sangue."
+dialog "Espero que a coragem e o orgulho"
+dialog "também acompanhem os seus caminhos no futuro."
+close
+-------------- SESSION ENDED --------------
+dialog "[Guerreiro da Tribo Jaty]"
+dialog "Venerando o poder e a coragem"
+dialog "Somos a Tribo FF0000Jaty^000000"
+close
+-------------- SESSION ENDED --------------
+dialog "[Guerreiro da Tribo Jaty]"
+dialog "Venerando o poder e a coragem"
+dialog "Somos a Tribo FF0000Jaty^000000"
+close
+-------------- SESSION ENDED --------------

@@ -1,0 +1,25 @@
+dialog "[Gatti]"
+dialog "Ei, jovem, você é daqui???"
+wait
+menu "Não, não sou.:"
+dialog "[Gatti]"
+dialog "Quero lhe fazer uma pergunta. Onde fica este lugar?"
+wait
+dialog "- Parece que ele está perguntando o nome da ilha."
+wait
+dialog "[n Sexy]"
+dialog ""
+wait
+dialog "[Gatti]"
+dialog " É mesmo... Dewata? Dewata.. Dewata.. Dewata.."
+wait
+dialog "- O velho suspirou fundo, resignado, -"
+dialog "- e continuou a falar. -"
+wait
+dialog "[Gatti]"
+dialog "Droga.. Meu plano está arruinado. Gastei toda a minha fortuna para chegar aqui, mas fracassei. Agora, não posso fazer nada, meu navio naufragou."
+wait
+dialog "- O velho começa a chorar. -"
+dialog "- Sem graça, você sai com pressa -"
+close
+-------------- SESSION ENDED --------------

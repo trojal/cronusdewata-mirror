@@ -1,0 +1,242 @@
+dialog "[Kasyapa, O Sábio]"
+dialog "Parece que seus olhos"
+dialog "têm algo a dizer"
+dialog "não tente esconder, conte-me"
+wait
+menu "Eu ouvi uma história sobre uma coroa:Não tenho nada a dizer:"
+dialog "[Kasyapa, O Sábio]"
+dialog "Oh, você ouviu falar sobre uma coroa"
+dialog " É mesmo?"
+dialog "ah, o velho tem a língua solta"
+dialog "Para garantir a prosperidade da tribo,"
+dialog "esse assunto deveria ser mantido em segredo... "
+wait
+menu "Posso ajudar em alguma coisa?:"
+dialog "[Kasyapa, O Sábio]"
+dialog "Parece que seus olhos estão dizendo"
+dialog "que você não está mentindo."
+wait
+dialog "- Com a luz brilhando por um curto período de tempo -"
+dialog "- ^0000FFKasyapa^000000 de repente -"
+dialog "- parece ter se surpreendido - "
+wait
+dialog "[Kasyapa, O Sábio]"
+dialog "Ah, isso..."
+dialog "..."
+dialog "Ao invés de falar com este velho, por que você não fala com "
+dialog "o líder da tribo ^0000FFFailko^000000,"
+dialog "por bem?"
+close
+-------------- SESSION ENDED --------------
+dialog "[Kasyapa, O Sábio]"
+dialog "Ao invés de falar com este velho"
+dialog "porque você não fala com"
+dialog "o líder da tribo?"
+close
+-------------- SESSION ENDED --------------
+dialog "[Kasyapa, O Sábio]"
+dialog "Ao invés de falar com este velho"
+dialog "porque você não fala com"
+dialog "o líder da tribo?"
+close
+-------------- SESSION ENDED --------------
+dialog "[Kasyapa, O Sábio]"
+dialog "Eu estava esperando você, viajante"
+dialog "O líder da tribo tem um favor"
+dialog "para pedir"
+dialog "Por favor, vá ver o líder da tribo"
+close
+-------------- SESSION ENDED --------------
+dialog "[Kasyapa, O Sábio]"
+dialog "Eu estava esperando você, viajante"
+dialog "O líder da tribo tem um favor"
+dialog "para pedir"
+dialog "Por favor, vá ver o líder da tribo"
+close
+-------------- SESSION ENDED --------------
+dialog "[Kasyapa, O Sábio]"
+dialog "Ouvi dizer que você poderia ajudar a fazer uma coroa"
+dialog "para o líder de nossa tribo."
+dialog "Tenho certeza de que você "
+dialog "vai nos ajudar muito."
+dialog "Confio em meu olho perspicaz!"
+dialog "e também na luz..."
+wait
+dialog "[Kasyapa, O Sábio]"
+dialog "Símbolo da Tribo Dayak"
+dialog "e conhecido como uma criatura mística"
+dialog "Encontre 15 ^006400Penas Relçuzentes de Cendrawasih^000000 "
+dialog "traga-os para ^0000FFFailko^000000"
+close
+-------------- SESSION ENDED --------------
+dialog "[Kasyapa, O Sábio]"
+dialog "Ouvi dizer que você poderia ajudar a fazer uma coroa"
+dialog "para o líder de nossa tribo."
+dialog "Tenho certeza de que você "
+dialog "vai nos ajudar muito."
+dialog "Confio em meu olho perspicaz!"
+dialog "e também na luz..."
+wait
+dialog "[Kasyapa, O Sábio]"
+dialog "Símbolo da Tribo Dayak"
+dialog "e conhecido como uma criatura mística"
+dialog "Encontre 15 ^006400Penas Relçuzentes de Cendrawasih^000000 "
+dialog "traga-os para ^0000FFFailko^000000"
+close
+-------------- SESSION ENDED --------------
+dialog "[Kasyapa, O Sábio]"
+dialog "Ouvi dizer que você poderia ajudar a fazer uma coroa"
+dialog "para o líder de nossa tribo."
+dialog "Tenho certeza de que você "
+dialog "vai nos ajudar muito."
+dialog "Confio em meu olho perspicaz!"
+dialog "e também na luz..."
+wait
+dialog "[Kasyapa, O Sábio]"
+dialog "Símbolo da Tribo Dayak"
+dialog "e conhecido como uma criatura mística"
+dialog "Encontre 15 ^006400Penas Relçuzentes de Cendrawasih^000000 "
+dialog "traga-os para ^0000FFFailko^000000"
+close
+-------------- SESSION ENDED --------------
+dialog "[Kasyapa, O Sábio]"
+dialog "Há uma coisa"
+dialog "que quero lhe dar."
+dialog "Quero lhe dar uma recompensa. "
+dialog "Por favor, quero que aceite a recompensa"
+wait
+dialog "[Kasyapa, O Sábio]"
+dialog "Eu pedi para você cumprir"
+dialog "essa missão importante"
+dialog "por causa dessa pena"
+dialog "oriunda de ancestrais antigos"
+dialog "A origem lendária da coroa foi"
+dialog "essa pena..."
+wait
+dialog "[Kasyapa, O Sábio]"
+dialog "Quando eu vi a pena que brilhava na sua frente"
+dialog "Eu pensei"
+dialog "Que você, com certeza, vai"
+dialog "nos ajudar muito."
+dialog "Eu, realmente, lhe agradeço..."
+wait
+dialog "[Kasyapa, O Sábio]"
+dialog "Além disso, a pena que você recebeu,"
+dialog "além do valor de pena,"
+dialog "também é um reconhecimento"
+dialog "de nossa tribo"
+wait
+dialog "[Kasyapa, O Sábio]"
+dialog "Como o Vulcão ^8B4513Krakatau^000000"
+dialog "Quando você estiver em uma área perigosa como essa"
+dialog "Se você mostrar a pena, poderá conseguir ajuda"
+dialog "da tribo."
+dialog "Enfim, muito obrigado"
+dialog "Não vou esquecer esse agradecimento"
+close
+-------------- SESSION ENDED --------------
+dialog "[Kasyapa, O Sábio]"
+dialog "Além disso, a pena que você recebeu"
+dialog "além do valor da pena"
+dialog "também é um reconhecimento"
+dialog "de nossa tribo"
+wait
+dialog "[Kasyapa, O Sábio]"
+dialog "Como o Vulcão ^8B4513Krakatau^000000"
+dialog "Quando você for para uma área perigosa como essa"
+dialog "Se você mostrar a pena, poderá conseguir ajuda"
+dialog "da tribo."
+dialog "Enfim, muito obrigado"
+dialog "Não vou esquecer esse agradecimento"
+close
+-------------- SESSION ENDED --------------
+dialog "[Kasyapa, O Sábio]"
+dialog "Além disso, a pena que você recebeu"
+dialog "além do valor da pena"
+dialog "também é um reconhecimento"
+dialog "de nossa tribo"
+wait
+dialog "[Kasyapa, O Sábio]"
+dialog "Como o Vulcão ^8B4513Krakatau^000000"
+dialog "Quando você for para uma área perigosa como essa"
+dialog "Se você mostrar a pena, poderá conseguir ajuda"
+dialog "da tribo."
+dialog "Enfim, muito obrigado"
+dialog "Não vou esquecer esse agradecimento"
+close
+-------------- SESSION ENDED --------------
+dialog "[Kasyapa, O Sábio]"
+dialog "Além disso, a pena que você recebeu"
+dialog "além do valor da pena"
+dialog "também é um reconhecimento"
+dialog "de nossa tribo"
+wait
+dialog "[Kasyapa, O Sábio]"
+dialog "Como o Vulcão ^8B4513Krakatau^000000"
+dialog "Quando você for para uma área perigosa como essa"
+dialog "Se você mostrar a pena, poderá conseguir ajuda"
+dialog "da tribo."
+dialog "Enfim, muito obrigado"
+dialog "Não vou esquecer esse agradecimento"
+close
+-------------- SESSION ENDED --------------
+dialog "[Kasyapa, O Sábio]"
+dialog "Além disso, a pena que você recebeu"
+dialog "além do valor da pena"
+dialog "também é um reconhecimento"
+dialog "de nossa tribo"
+wait
+dialog "[Kasyapa, O Sábio]"
+dialog "Como o Vulcão ^8B4513Krakatau^000000"
+dialog "Quando você for para uma área perigosa como essa"
+dialog "Se você mostrar a pena, poderá conseguir ajuda"
+dialog "da tribo."
+dialog "Enfim, muito obrigado"
+dialog "Não vou esquecer esse agradecimento"
+close
+-------------- SESSION ENDED --------------
+dialog "[Kasyapa, O Sábio]"
+dialog "Além disso, a pena que você recebeu"
+dialog "além do valor da pena"
+dialog "também é um reconhecimento"
+dialog "de nossa tribo"
+wait
+dialog "[Kasyapa, O Sábio]"
+dialog "Como o Vulcão ^8B4513Krakatau^000000"
+dialog "Quando você for para uma área perigosa como essa"
+dialog "Se você mostrar a pena, poderá conseguir ajuda"
+dialog "da tribo."
+dialog "Enfim, muito obrigado"
+dialog "Não vou esquecer esse agradecimento"
+close
+-------------- SESSION ENDED --------------
+dialog "[Kasyapa, O Sábio]"
+dialog "Além disso, a pena que você recebeu"
+dialog "além do valor da pena"
+dialog "também é um reconhecimento"
+dialog "de nossa tribo"
+wait
+dialog "[Kasyapa, O Sábio]"
+dialog "Como o Vulcão ^8B4513Krakatau^000000"
+dialog "Quando você for para uma área perigosa como essa"
+dialog "Se você mostrar a pena, poderá conseguir ajuda"
+dialog "da tribo."
+dialog "Enfim, muito obrigado"
+dialog "Não vou esquecer esse agradecimento"
+close
+-------------- SESSION ENDED --------------
+dialog "[Kasyapa, O Sábio]"
+dialog "Além disso, a pena que você recebeu"
+dialog "além do valor da pena"
+dialog "também é um reconhecimento"
+dialog "de nossa tribo"
+wait
+dialog "[Kasyapa, O Sábio]"
+dialog "Como o Vulcão ^8B4513Krakatau^000000"
+dialog "Quando você for para uma área perigosa como essa"
+dialog "Se você mostrar a pena, poderá conseguir ajuda"
+dialog "da tribo."
+dialog "Enfim, muito obrigado"
+dialog "Não vou esquecer esse agradecimento"
+close
+-------------- SESSION ENDED --------------

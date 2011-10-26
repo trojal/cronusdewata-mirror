@@ -1,0 +1,391 @@
+dialog "[Failko, Chefe da Tribo]"
+dialog "Pelo que consigo observar, você deve ser um viajante"
+dialog "O que o traz aqui?"
+wait
+menu "Ouvi a história, por acidente:Não tenho nada a dizer:"
+dialog "[Failko, Chefe da Tribo]"
+dialog "Que pessoa insignificante você é "
+dialog "Há várias atrações por aí "
+dialog "que tornariam uma viagem mais agradável"
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Pelo que consigo observar, você deve ser um viajante"
+dialog "O que o traz aqui?"
+wait
+menu "Ouvi a história, por acidente:Não tenho nada a dizer:"
+dialog "[Failko, Chefe da Tribo]"
+dialog "O que você quer dizer?"
+dialog "Você ouviu a história sobre a coroa?"
+dialog "Você ouviu algo desnecessário"
+dialog "Não tenho nada para lhe dizer"
+dialog "sobre isso"
+wait
+menu "Depois de ouvir a história da coroa, contada por Kasyapa...:"
+dialog "[Failko, Chefe da Tribo]"
+dialog "^0000FFKasyapa^000000 também disse"
+dialog "coisas inúteis"
+dialog "Eu agradeço sua preocupação,"
+dialog "não é nada que deva preocupar um estranho como você "
+dialog "então, por favor, retire-se"
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Há várias atrações por aí "
+dialog "que tornariam uma viagem mais agradável"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "mas se é sobre a coroa,"
+dialog "Quero que você pare,"
+dialog "por favor, vá embora"
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Há várias atrações por aí "
+dialog "que tornariam uma viagem mais agradável"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "mas se é sobre a coroa,"
+dialog "Quero que você pare,"
+dialog "por favor, vá embora"
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Há várias atrações por aí "
+dialog "que tornariam uma viagem mais agradável"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "mas se é sobre a coroa,"
+dialog "Quero que você pare,"
+dialog "por favor, vá embora"
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Há várias atrações por aí "
+dialog "que tornariam uma viagem mais agradável"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "mas se é sobre a coroa,"
+dialog "Quero que você pare,"
+dialog "por favor, vá embora"
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Eu estava esperando você, viajante"
+dialog "de acordo com o sábio ^0000FFKasyapa^000000"
+dialog "Você pode ajudar muito "
+dialog "para fazer uma coroa"
+dialog "para nossa tribo"
+wait
+menu "Qual é o problema?:"
+dialog "[Failko, Chefe da Tribo]"
+dialog "O líder da tribo faz e guarda ^006400Coroa Jaty^000000 por gerações "
+dialog "para continuar"
+dialog "o orgulho e a honra da tribo"
+dialog "mas, desde que me tornei líder da tribo,"
+dialog "há dificuldades na produção da ^006400Coroa Jaty^000000"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "de acordo com o sábio ^0000FFKasyapa^000000"
+dialog "Você pode ajudar muito a fazer uma ^006400Coroa Jaty^000000,"
+dialog "com certeza."
+dialog "Acha que pode ajudar?"
+dialog "Não vou decepcionar você na hora de lhe dar uma recompensa"
+wait
+menu "Ok, vou ajudar:Eu sinto muito, mas...:"
+dialog "[Failko, Chefe da Tribo]"
+dialog "Isso é muito triste"
+dialog "Se você mudar de ideia, por favor, venha novamente"
+dialog "Estarei esperando"
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Eu estava esperando você, viajante"
+dialog "de acordo com o sábio ^0000FFKasyapa^000000"
+dialog "Você pode ajudar muito "
+dialog "para fazer uma coroa"
+dialog "para nossa tribo"
+wait
+menu "Qual é o problema?:"
+dialog "[Failko, Chefe da Tribo]"
+dialog "O líder da tribo faz e guarda ^006400Coroa Jaty^000000 por gerações "
+dialog "para continuar"
+dialog "o orgulho e a honra da tribo"
+dialog "mas, desde que me tornei líder da tribo,"
+dialog "há dificuldades na produção da ^006400Coroa Jaty^000000"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "de acordo com o sábio ^0000FFKasyapa^000000"
+dialog "Você pode ajudar muito a fazer uma ^006400Coroa Jaty^000000,"
+dialog "com certeza."
+dialog "Acha que pode ajudar?"
+dialog "Não vou decepcionar você na hora de lhe dar uma recompensa"
+wait
+menu "Ok, vou ajudar:Eu sinto muito, mas...:"
+dialog "[Failko, Chefe da Tribo]"
+dialog "muito, muito muito obrigado"
+dialog "Você pode ajudar muito a fazer a ^006400Coroa Jaty^000000"
+dialog "O que você pode fazer para ajudar"
+dialog " é muito simples"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "O símbolo da Tribo Dayak"
+dialog " é conhecido como uma criatura mística"
+dialog "encontre 15 ^006400Penas Reluzentes de Cendrawasih^000000"
+dialog "e traga-os para mim."
+dialog "Estou contando com você "
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Parece que você ainda precisa encontrar os materiais para fazer a"
+dialog "^006400Coroa Jaty^000000"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "O símbolo da Tribo Dayak"
+dialog " é conhecido como uma criatura mística"
+dialog "Encontre 15 ^006400Penas Reluzentes de Cendrawasih^000000 "
+dialog "e traga os para mim, por favor"
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Parece que você ainda precisa encontrar os materiais para fazer a"
+dialog "^006400Coroa Jaty^000000"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "O símbolo da Tribo Dayak"
+dialog " é conhecido como uma criatura mística"
+dialog "Encontre 15 ^006400Penas Reluzentes de Cendrawasih^000000 "
+dialog "e traga os para mim, por favor"
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Oh! Você, finalmente, encontrou todos eles"
+dialog "Veja! A pena que você encontrou"
+dialog "está brilhando, não está?"
+dialog "Certo. Deixe-me começar a produzir a ^006400Coroa Jaty^000000"
+dialog "Vamos fazer o item"
+wait
+dialog "- Com um grande barulho, de repente -"
+dialog "- ^0000FFFailko^000000 e meu corpo são -"
+dialog "- cercados por uma faísca quente e brilhante -"
+dialog "- que me fez me sentir bem -"
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Com a sua contribuição,"
+dialog "a ^006400Coroa Jaty^000000 está sendo produzido, tranquilamente"
+dialog "Vai demorar até que tudo termine"
+dialog "então, por favor, espere um pouco"
+dialog "Depois da ^006400Coroa Jaty^000000 ser produzida, com sucesso,"
+dialog "quero lhe dar um presente."
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "Ah, além disso"
+dialog "Você deve visitar o sábio ^0000FFKasyapa^000000"
+dialog "Kasyapa, realmente,"
+dialog "quer lhe dar uma recompensa "
+dialog "de algum tipo"
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Com a sua ajuda,"
+dialog "Pude me preocupar menos com a ^006400Coroa Jaty^000000 "
+dialog "Um pouco, ao menos... "
+dialog "Estou, realmente, muito agradecido"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "Um dia agradável como hoje "
+dialog "deve ser comemorado. Não acha?"
+dialog "Então, eu preparei"
+dialog "a comida especial da tribo ^006400Saté^000000"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "Mas esse ^006400Saté^000000 é "
+dialog "bom demais, não devemos apenas"
+dialog "compartilhá-lo entre nós, também gostaríamos de "
+dialog "compartilhá-lo com as pessoas"
+dialog "que nos ajudam regularmente"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "O que você acha?"
+dialog "Para divulgar a notícia que a ^006400Coroa Jaty^000000 está sendo produzida"
+dialog "com sucesso e para compartilhar"
+dialog "o ^006400Saté^000000 delicioso"
+dialog "com os amigos, preciso da sua ajuda."
+dialog "Acha que pode ajudar?"
+wait
+menu "Claro que posso ajudar:Sinto muito, estou ocupado demais para ajudar...:"
+dialog "[Failko, Chefe da Tribo]"
+dialog "Acreditei que você, com certeza, iria "
+dialog "me ajudar..."
+dialog "Mas, estou um pouco decepcionado"
+dialog "Se você mudar de ideia,"
+dialog "por favor, volte novamente"
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Com a sua ajuda,"
+dialog "Pude me preocupar menos com a ^006400Coroa Jaty^000000 "
+dialog "Um pouco, ao menos... "
+dialog "Estou, realmente, muito agradecido"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "Um dia agradável como hoje "
+dialog "deve ser comemorado. Não acha?"
+dialog "Então, eu preparei"
+dialog "a comida especial da tribo ^006400Saté^000000"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "Mas esse ^006400Saté^000000 é "
+dialog "bom demais, não devemos apenas"
+dialog "compartilhá-lo entre nós, também gostaríamos de "
+dialog "compartilhá-lo com as pessoas"
+dialog "que nos ajudam regularmente"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "O que você acha?"
+dialog "Para divulgar a notícia que a ^006400Coroa Jaty^000000 está sendo produzida"
+dialog "com sucesso e para compartilhar"
+dialog "o ^006400Saté^000000 delicioso"
+dialog "com os amigos, preciso da sua ajuda."
+dialog "Acha que pode ajudar?"
+wait
+menu "Claro que posso ajudar:Sinto muito, estou ocupado demais para ajudar...:"
+dialog "[Failko, Chefe da Tribo]"
+dialog "Oh! Sabia que você, com certeza, nos ajudaria"
+dialog "Lembro dos guerreiros de nossa tribo"
+dialog "antes dos estrangeiros."
+dialog "Compartilhe Saté com guerreiros"
+dialog "na vila."
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "Por enquanto,"
+dialog "vou lhe dar mais 2 ^006400Saté^000000"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "Se o cheiro do ^006400Saté^000000 lhe tentar"
+dialog "Você poderá comer um,"
+dialog "mas se comer mais,"
+dialog "não vai poder compartilhar o ^006400Saté^000000"
+dialog "com os amigos,"
+dialog "lembre-se disso"
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Pelo que posso observar,"
+dialog "parece que você ainda precisa entregar"
+dialog "o ^006400Saté^000000..."
+dialog "Aconteceu alguma coisa?"
+wait
+menu "Comi tudo:Dei para...:Nada:"
+dialog "[Failko, Chefe da Tribo]"
+dialog "Certo"
+dialog "Entregue, agora mesmo"
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Pelo que posso observar,"
+dialog "parece que você ainda precisa entregar"
+dialog "o ^006400Saté^000000..."
+dialog "Aconteceu alguma coisa?"
+wait
+menu "Comi tudo:Dei para...:Nada:"
+dialog "[Failko, Chefe da Tribo]"
+dialog "Lembro dos guerreiros de nossa tribo"
+dialog "antes dos estrangeiros."
+dialog "Compartilhe Saté com guerreiros"
+dialog "na vila."
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Pelo que posso observar,"
+dialog "parece que você ainda precisa entregar"
+dialog "o ^006400Saté^000000..."
+dialog "Aconteceu alguma coisa?"
+wait
+menu "Comi tudo:Dei para...:Nada:"
+dialog "[Failko, Chefe da Tribo]"
+dialog "Hum... Entrou em apuros,"
+dialog "não se sinta culpado,"
+dialog "coloque a culpa no ^006400Saté^000000"
+dialog "que está com um cheiro delicioso"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "A tribo está passando por um período de falta de comida"
+dialog "então, não podemos dar mais ^006400Saté^000000"
+dialog "mas há um boato que diz que"
+dialog "o dono restaurante na Ilha Dewata está fazendo"
+dialog "e vendendo ^006400Saté^000000"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "Apesar de não ser tão gostoso quanto o tradicional de nossa tribo,"
+dialog "como é urgente,"
+dialog "encontre-o"
+dialog "e entregue-o"
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Pelo que posso observar,"
+dialog "parece que você ainda precisa entregar"
+dialog "o ^006400Saté^000000..."
+dialog "Aconteceu alguma coisa?"
+wait
+menu "Comi tudo:Dei para...:Nada:"
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Oh, você o entregou"
+dialog "A segunda pessoa para quem o ^006400Saté^000000 precisa ser entregue é "
+dialog "alguém que fica do outro lado do rio"
+dialog "^0000FFsupervisor da tribo^000000"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "Por enquanto,"
+dialog "vou lhe dar mais 2 ^006400Saté^000000"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "Se o cheiro de ^006400Saté^000000 lhe tentar"
+dialog "Você poderá comer um"
+dialog "mas, se comer mais,"
+dialog "não vai poder compartilhar o ^006400Saté^000000"
+dialog "com os amigos,"
+dialog "lembre-se disso"
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Pelo que posso observar,"
+dialog "parece que você ainda precisa entregar"
+dialog "o ^006400Saté^000000..."
+dialog "Aconteceu alguma coisa?"
+wait
+menu "Comi tudo:Dei para...:Nada:"
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Oh, você o entregou"
+dialog "A terceira pessoa para quem o ^006400Saté^000000 precisa ser entregue é "
+dialog "o ^0000FFVigia do Vulcão Krakatau ^000000 que está na"
+dialog "^8B4513Ilha Dewata^000000"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "Por enquanto,"
+dialog "vou lhe dar mais 2 ^006400Saté^000000"
+wait
+dialog "[Failko, Chefe da Tribo]"
+dialog "Se o cheiro de ^006400Saté^000000 lhe tentar"
+dialog "Você poderá comer um"
+dialog "mas se você comer mais,"
+dialog "não vai poder compartilhar o ^006400Saté^000000"
+dialog "com os amigos,"
+dialog "lembre-se disso"
+close
+-------------- SESSION ENDED --------------
+dialog "[Failko, Chefe da Tribo]"
+dialog "Pelo que posso observar,"
+dialog "Parece que você ainda precisa entregar"
+dialog "o ^006400Saté^000000..."
+dialog "Aconteceu alguma coisa?"
+wait
+menu "Comi tudo:Dei para...:Nada:"
+close
+-------------- SESSION ENDED --------------

@@ -1,0 +1,48 @@
+dialog "[Guerreiro recluso]"
+dialog "Estou fazendo o meu melhor para me tornar"
+dialog "um grande guerreiro."
+wait
+dialog "[Guerreiro recluso]"
+dialog "Estou aprendendo a habilidade de caça,"
+dialog "ultimamente. E estou ficando"
+dialog "melhor"
+dialog "a cada dia que passa!"
+wait
+dialog "[Guerreiro recluso]"
+dialog "Não vou parar até "
+dialog "me tornar um verdadeiro guerreiro"
+dialog "de nossa tribo!!"
+close
+-------------- SESSION ENDED --------------
+dialog "[Guerreiro recluso]"
+dialog "Estou fazendo o meu melhor para me tornar"
+dialog "um grande guerreiro."
+wait
+dialog "[Guerreiro recluso]"
+dialog "Estou aprendendo a habilidade de caça,"
+dialog "ultimamente. E estou ficando"
+dialog "melhor"
+dialog "a cada dia que passa!"
+wait
+dialog "[Guerreiro recluso]"
+dialog "Não vou parar até "
+dialog "me tornar um verdadeiro guerreiro"
+dialog "de nossa tribo!!"
+close
+-------------- SESSION ENDED --------------
+dialog "[Guerreiro recluso]"
+dialog "Estou fazendo o meu melhor para me tornar"
+dialog "um grande guerreiro."
+wait
+dialog "[Guerreiro recluso]"
+dialog "Estou aprendendo a habilidade de caça,"
+dialog "ultimamente. E estou ficando"
+dialog "melhor"
+dialog "a cada dia que passa!"
+wait
+dialog "[Guerreiro recluso]"
+dialog "Não vou parar até "
+dialog "me tornar um verdadeiro guerreiro"
+dialog "de nossa tribo!!"
+close
+-------------- SESSION ENDED --------------

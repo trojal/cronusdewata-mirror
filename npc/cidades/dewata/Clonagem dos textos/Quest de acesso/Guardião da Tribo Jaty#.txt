@@ -1,0 +1,21 @@
+dialog "[Guardião da Tribo Jaty]"
+dialog "Bem-vindo à cidade de ^FF0000Jaty^000000,"
+dialog "tribo da força e coragem."
+dialog "Espero que você tenha uma viagem segura e tranquila"
+dialog "aqui."
+close
+-------------- SESSION ENDED --------------
+dialog "[Guardião da Tribo Jaty]"
+dialog "Bem-vindo à cidade de ^FF0000Jaty^000000,"
+dialog "tribo da força e coragem."
+dialog "Espero que você tenha uma viagem segura e tranquila"
+dialog "aqui."
+close
+-------------- SESSION ENDED --------------
+dialog "[Guardião da Tribo Jaty]"
+dialog "Bem-vindo à cidade de ^FF0000Jaty^000000,"
+dialog "tribo da força e coragem."
+dialog "Espero que você tenha uma viagem segura e tranquila"
+dialog "aqui."
+close
+-------------- SESSION ENDED --------------
