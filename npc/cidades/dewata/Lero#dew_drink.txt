@@ -1,0 +1,9 @@
+dewata,150,150,5	script	Lero	-1{
+
+	mes "[Lero]";
+	mes "O que aconteceu, Poby? Por que ainda não veio aqui...";
+	next;
+	mes "- parece que ele está esperando -";
+	mes "- alguém. -";
+	close;
+}

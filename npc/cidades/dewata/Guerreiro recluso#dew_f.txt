@@ -1,0 +1,18 @@
+dewata,150,150,5	script	Guerreiro recluso	-1{
+
+	mes "[Guerreiro recluso]"
+	mes "Estou fazendo o meu melhor para me tornar"
+	mes "um grande guerreiro."
+	next;
+	mes "[Guerreiro recluso]"
+	mes "Estou aprendendo a habilidade de caça,"
+	mes "ultimamente. E estou ficando"
+	mes "melhor"
+	mes "a cada dia que passa!"
+	next;
+	mes "[Guerreiro recluso]"
+	mes "Não vou parar até "
+	mes "me tornar um verdadeiro guerreiro"
+	mes "de nossa tribo!!"
+	close;
+}

@@ -1,0 +1,9 @@
+dewata,150,150,5	script	Guardião da Tribo Jaty	-1{
+
+	mes "[Guardião da Tribo Jaty]";
+	mes "Bem-vindo à cidade de ^FF0000Jaty^000000,";
+	mes "tribo da força e coragem.";
+	mes "Espero que você tenha uma viagem segura e tranquila";
+	mes "aqui.";
+	close;
+}
