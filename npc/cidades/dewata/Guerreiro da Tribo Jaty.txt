@@ -1,41 +1,40 @@
 dewata,150,150,5	script	Guerreiro da Tribo Jaty	-1{
-
-	mes "[Guerreiro da Tribo Jaty]"
-	mes "Venerando o poder e a coragem"
-	mes "Somos a Tribo FF0000Jaty^000000"
+	mes "[Guerreiro da Tribo Jaty]";
+	mes "Venerando o poder e a coragem";
+	mes "Somos a Tribo FF0000Jaty^000000";
 	next;
-	mes "[Guerreiro da Tribo Jaty]"
-	mes "Pelo que posso observar,"
-	mes "parece que você quer dizer alguma coisa,"
-	mes "diga o que quer"
+	mes "[Guerreiro da Tribo Jaty]";
+	mes "Pelo que posso observar,";
+	mes "parece que você quer dizer alguma coisa,";
+	mes "diga o que quer";
 	next;
 	select("^0000FFFailko, Chefe Tribal^000000");
-		mes "[Guerreiro da Tribo Jaty]"
-		mes "Eu já conheço "
-		mes "uma história alegre,"
-		mes "Sendo um representante da tribo,"
-		mes "expresso nosso agradecimento."
-		next;
-		mes "[Guerreiro da Tribo Jaty]"
-		mes "Também lhe agradeço pelo ^006400Saté^000000"
-		mes "Ele, com certeza, está bom,"
-		mes "obrigado,"
-		mes "em troca disso,"
-		mes "há algo que gostaria de compartilhar"
-		mes "com você, relacionado à nossa tribo"
-		next;
-		mes "[Guerreiro da Tribo Jaty]"
-		mes "Diferente dos velhos tempos quando os guerreiros da tribo"
-		mes "lutavam e se ensanguentavam,"
-		mes "hoje em dia o mundo ficou mais pacífico."
-		mes "O espaço de nossa tribo também diminuiu,"
-		next;
-		mes "[Guerreiro da Tribo Jaty]"
-		mes "mas mesmo assim continuaremos mantendo"
-		mes "a coragem de nossa tribo"
-		mes "e o orgulho "
-		mes "que conseguimos com sangue."
-		mes "Espero que a coragem e o orgulho"
-		mes "também acompanhem os seus caminhos no futuro."
-		close;
+	mes "[Guerreiro da Tribo Jaty]";
+	mes "Eu já conheço ";
+	mes "uma história alegre,";
+	mes "Sendo um representante da tribo,";
+	mes "expresso nosso agradecimento.";
+	next;
+	mes "[Guerreiro da Tribo Jaty]";
+	mes "Também lhe agradeço pelo ^006400Saté^000000";
+	mes "Ele, com certeza, está bom,";
+	mes "obrigado,";
+	mes "em troca disso,";
+	mes "há algo que gostaria de compartilhar";
+	mes "com você, relacionado à nossa tribo";
+	next;
+	mes "[Guerreiro da Tribo Jaty]";
+	mes "Diferente dos velhos tempos quando os guerreiros da tribo";
+	mes "lutavam e se ensanguentavam,";
+	mes "hoje em dia o mundo ficou mais pacífico.";
+	mes "O espaço de nossa tribo também diminuiu,";
+	next;
+	mes "[Guerreiro da Tribo Jaty]";
+	mes "mas mesmo assim continuaremos mantendo";
+	mes "a coragem de nossa tribo";
+	mes "e o orgulho ";
+	mes "que conseguimos com sangue.";
+	mes "Espero que a coragem e o orgulho";
+	mes "também acompanhem os seus caminhos no futuro.";
+	close;
 }

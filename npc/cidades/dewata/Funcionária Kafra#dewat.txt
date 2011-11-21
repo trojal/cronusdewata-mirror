@@ -1,115 +1,107 @@
 //Falta coordenadas, sprite, corrigir " savepoint " , terminar opção " Verificar Pontos " e por comando callfunc para verificar senha!   By: Janderson
 
-dewata,x,y,p	script	Funcionária Kafra	-1{
-
+dewata,x,y,p	script	Funcionária Kafra	-1,{
 	mes "[Funcionária Kafra]";
 	mes "Olá! O Serviço Kafra está sempre está ao seu lado.";
 	mes "Em que posso ajudar?";
 	next;
-	switch(select("Salvar:Usar Armazém:Alugar um Carrinho:Verificar Pontos:Cancelar"))
+	switch (select ("Salvar:Usar Armazém:Alugar um Carrinho:Verificar Pontos:Cancelar"))
 	{
+		mes "[Funcionária Kafra]";
 
-	case 1:
-		mes "[Funcionária Kafra]";
-		mes "Os pontos foram salvos";
-		mes "Obrigado por nos visitar.";
-		savepoint "dewata",x,y;
-		close2;
-		break;
-	case 2:
-		if(basicskillcheck() && getskilllv("NV_BASIC") < 6){
-			mes "[Funcionária Kafra]";
-			mes "Desculpe, mas você";
-			mes "precisa das Habilidades Básicas";
-			mes "de Aprendiz Nível 6 para";
-			mes "usar o Serviço de Armazém.";
-			close2;
+		case 1:
+			mes "Os pontos foram salvos";
+			mes "Obrigado por nos visitar.";
+			savepoint "dewata",x,y;
 			break;
-		}
-		if(Zeny < 40){
-			mes "[Funcionária Kafra]";
-			mes "Desculpe, mas você não";
-			mes "possui zeny suficiente para";
-			mes "o Serviço de Armazém. Nosso";
-			mes "acesso ao armazém custa 40 zeny.";
-			close2;
-			break;
-		}
-		set Zeny, Zeny - 40;
-		mes "[Funcionária Kafra]";
-		mes "Gostaríamos de abrir o armazem.";
-		mes "Obrigado por nos visitar.";
-		close2;
-		openstorage;
-		break;
-	case 3:
-		mes "[Funcionária Kafra]";
-		if(BaseClass != Job_Merchant){
-		mes "Desculpe, mas o";
-		mes "serviço de aluguel de carrinho";
-		mes "é disponível apenas para Mercadores,";
-		mes "Ferreiros, Mestre-Ferreiros,";
-		mes "Alquimistas e Criadores.";
-		close2;
-		break;
-		}
-		if(getskilllv("MC_PUSHCART") == 0){
-			mes "[Funcionária Kafra]";
-			mes "Você só pode alugar carrinhos";
-			mes "após possuir a habilidade Usar Carrinho.";
-			close2;
-			break;
-		}
-		if(checkcart() == 1){
-			mes "[Funcionária Kafra]";
-			mes "Você já está";
-			mes "com o carrinho equipado.";
-			mes "Infelizmente, nós não";
-			mes "alugamos mais de um";
-			mes "carrinho por vez.";
-			close2;
-			break;
-		}
-		mes "[Funcionária Kafra]";
-		mes "O aluguel do carrinho";
-		mes "custa 800 zeny. Gostaria";
-		mes "de alugar um carrinho?";
-		next;
-		if(select("Alugar o carrinho:Cancelar") == 1){
-			if(Zeny < 800){
-				mes "[Funcionária Kafra]";
+
+		case 2:
+			if(basicskillcheck() && getskilllv("NV_BASIC") < 6)
+			{
 				mes "Desculpe, mas você";
-				mes "não possui zeny suficiente";
-				mes "para pagar o aluguel";
-				mes "do carrinho que custa 800 zeny.";
-				close2;
-				break;
-			} else {
-				set Zeny, Zeny - 800;
-				setcart;
-				close2;
+				mes "precisa das Habilidades Básicas";
+				mes "de Aprendiz Nível 6 para";
+				mes "usar o Serviço de Armazém.";
 				break;
 			}
-		}
-		close2;
-		break;
-	case 4:
-	if(select("Verifique os pontos acumulados.:Cancelar") == 1)
-	{
-		mes "[Funcionária Kafra]";
-		mes "n Sexyseus pontos são  30733.";
-		next;
-		mes "[Funcionária Kafra]";
-		mes "Os pontos são suficientes para troca pelo produto.";
-		mes "Aproveite nossos serviços e pegue muitos produtos excelentes.";
-		close;
-	}
-	else
-	{
+			if (Zeny < 40)
+			{
+				mes "Desculpe, mas você não";
+				mes "possui zeny suficiente para";
+				mes "o Serviço de Armazém. Nosso";
+				mes "acesso ao armazém custa 40 zeny.";
+				break;
+			}
+			set Zeny, Zeny - 40;
+			mes "Gostaríamos de abrir o armazem.";
+			mes "Obrigado por nos visitar.";
+			openstorage;
+			break;
+			
+		case 3:
+			if (BaseClass != Job_Merchant)
+			{
+				mes "Desculpe, mas o";
+				mes "serviço de aluguel de carrinho";
+				mes "é disponível apenas para Mercadores,";
+				mes "Ferreiros, Mestre-Ferreiros,";
+				mes "Alquimistas e Criadores.";
+				break;
+			}
+			if (!getskilllv("MC_PUSHCART"))
+			{
+				mes "Você só pode alugar carrinhos";
+				mes "após possuir a habilidade Usar Carrinho.";
+				break;
+			}
+			if (checkcart())
+			{
+				mes "Você já está";
+				mes "com o carrinho equipado.";
+				mes "Infelizmente, nós não";
+				mes "alugamos mais de um";
+				mes "carrinho por vez.";
+				break;
+			}
+			mes "O aluguel do carrinho";
+			mes "custa 800 zeny. Gostaria";
+			mes "de alugar um carrinho?";
+			next;
+			if (select ("Alugar o carrinho:Cancelar") == 1)
+			{
+				if (Zeny < 800) {
+					mes "[Funcionária Kafra]";
+					mes "Desculpe, mas você";
+					mes "não possui zeny suficiente";
+					mes "para pagar o aluguel";
+					mes "do carrinho que custa 800 zeny.";
+					break;
+				}
+				else
+				{
+					set Zeny, Zeny - 800;
+					setcart;
+					break;
+				}
+			}
+			break;
+			
+		case 4:
+			if (select ("Verifique os pontos acumulados.:Cancelar") == 1)
+			{
+				mes "[Funcionária Kafra]";
+				mes strcharinfo(0)+" seus pontos são 30733.";
+				next;
+				mes "[Funcionária Kafra]";
+				mes "Os pontos são suficientes para troca pelo produto.";
+				mes "Aproveite nossos serviços e pegue muitos produtos excelentes.";
+			}
+			break;
+
+		case 5:
+			mes "Estamos fazendo nosso melhor para cumprir a sua expectativa com o melhor serviço e gerenciamento rigoroso.";
+			mes "Obrigado por nos visitar.";
+			break;
 	}
 	close;
 }
-	case 5:
-		mes "Estamos fazendo nosso melhor para cumprir a sua expectativa com o melhor serviço e gerenciamento rigoroso.";
-		mes "Obrigado por nos visitar.";
-		close;

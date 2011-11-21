@@ -1,5 +1,4 @@
 dewata,150,150,5	script	Guerreiro recluso	-1{
-
 	mes "[Guerreiro recluso]"
 	mes "Estou fazendo o meu melhor para me tornar"
 	mes "um grande guerreiro."

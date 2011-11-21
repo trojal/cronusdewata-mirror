@@ -1,27 +1,26 @@
 dewata,150,150,5	script	Gatti	-1{
-
 	mes "[Gatti]";
 	mes "Ei, jovem, você é daqui???";
 	next;
 	select("Não, não sou.");
-		mes "[Gatti]";
-		mes "Quero lhe fazer uma pergunta. Onde fica este lugar?";
-		next;
-		mes "- Parece que ele está perguntando o nome da ilha.";
-		next;
-		mes "[n Sexy]";
-		mes "";
-		next;
-		mes "[Gatti]"
-		mes " É mesmo... Dewata? Dewata.. Dewata.. Dewata..";
-		next;
-		mes "- O velho suspirou fundo, resignado, -";
-		mes "- e continuou a falar. -";
-		next;
-		mes "[Gatti]";
-		mes "Droga.. Meu plano está arruinado. Gastei toda a minha fortuna para chegar aqui, mas fracassei. Agora, não posso fazer nada, meu navio naufragou.";
-		next;
-		mes "- O velho começa a chorar. -";
-		mes "- Sem graça, você sai com pressa -";
-		close;
+	mes "[Gatti]";
+	mes "Quero lhe fazer uma pergunta. Onde fica este lugar?";
+	next;
+	mes "- Parece que ele está perguntando o nome da ilha.";
+	next;
+	mes "["+strcharinfo(0)+"]";
+	mes "";
+	next;
+	mes "[Gatti]"
+	mes " É mesmo... Dewata? Dewata.. Dewata.. Dewata..";
+	next;
+	mes "- O velho suspirou fundo, resignado, -";
+	mes "- e continuou a falar. -";
+	next;
+	mes "[Gatti]";
+	mes "Droga.. Meu plano está arruinado. Gastei toda a minha fortuna para chegar aqui, mas fracassei. Agora, não posso fazer nada, meu navio naufragou.";
+	next;
+	mes "- O velho começa a chorar. -";
+	mes "- Sem graça, você sai com pressa -";
+	close;
 }
